@@ -1,0 +1,2257 @@
+<!doctype html>
+
+<html lang='ru' xml:lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="-1"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+
+<link rel="preload" as="font" crossorigin="anonymous" href="https://res.readmanga.live/static/webfonts/fa-regular-400-dd049a6496eea2a18937237b999ea8fa.woff2"/>
+<link rel="preload" as="script" href="https://res.readmanga.live/static/application-66790d603f82cd1334eb7fa227b9c840.js"/>
+
+<link rel="shortcut icon" type="image/x-icon" href="https://res.readmanga.live/static/favicon-4772904730a7e0fa0da621428427d341.ico"/>
+<link rel="apple-touch-icon" href="https://res.readmanga.live/static/apple-touch-icon-3162037c9df9f28dca0f9a4092cb0f65.png"/>
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-config" content="none"/>
+
+<title>Читать мангу на Русском онлайн. Свежие переводы. Read manga online! - ReadManga.live</title>
+
+<!-- Карамель -->
+<script async src="https://yastatic.net/pcode/adfox/header-bidding.js"></script>
+<script type="text/javascript" src="https://ads.digitalcaramel.com/js/readmanga.me.js"></script>
+<script async src="https://yastatic.net/pcode/adfox/loader.js" crossorigin="anonymous"></script>
+<!-- Карамель -->
+
+
+
+<link rel="stylesheet" href="https://res.readmanga.live/static/application-22ab3ed74c8f041fcb9b1306f34d7c5b.css"/>
+<script type="text/javascript" src="https://res.readmanga.live/static/application-66790d603f82cd1334eb7fa227b9c840.js" ></script>
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript" >
+    var SERVER_URL = 'https://readmanga.live';
+    var X_URL = 'https://grouple.co';
+    try{
+        // if (window.location.href.toLowerCase().indexOf(SERVER_URL)!=0) {window.location.href=SERVER_URL}
+    } catch(all){}
+
+    var jQ = jQuery.noConflict();
+    var $=jQ;
+    var RM_auto_link="/search/suggestion";
+
+    function sendStatistic(id, mangaId) {
+        jQuery.ajax({type:'POST',data:'id='+id+'&mangaId='+mangaId, url:'/internal/ajax/visit',success:function(data,textStatus){},error:function(XMLHttpRequest,textStatus,errorThrown){}});
+    }
+
+    function forumSsoCallback(token){
+        jQuery.ajax({type:'POST',data:{tk:token}, url:'/internal/auth/ajax',success:function(data,textStatus){jQuery('#accountMenu').html(data);},error:function(XMLHttpRequest,textStatus,errorThrown){}});
+        $(".bookmark-menu.loading-started").removeClass('loading-started');
+    }
+
+    function setMangaBookmark(status, id, type, vol, num){
+        jQuery.ajax({type:'POST',data:'id='+id+'&type='+type+'&status='+status+'&vol='+vol+'&num='+num+'&page='+rm_h.cur, url:'/internal/ajax/addBookmark',success:function(data,textStatus){rm_h.xuser.onSave(data);},error:function(XMLHttpRequest,textStatus,errorThrown){}});
+    }
+</script>
+
+
+
+
+  
+  <meta name="description" content="Удобное чтение манги, хороший каталог манги, Сервис чтения манги онлайн, русские переводы манги, каталог манги. Чтение онлайн переводов на русский язык самой популярной манги мира."/>
+  <link rel="alternate" type="application/rss+xml" title="ReadManga.live RSS" href="https://readmanga.live/rss/index"/>
+  <meta name="google-site-verification" content="JgVncQnPT2sXCtExt3X9JWHGK-rS9nQSy9FgwNUDD0g" />
+<meta name="msvalidate.01" content="6AA73BB75FE26D8FC939165A7EB15157" />
+<meta name='wmail-verification' content='a87994c65d8188fe' />
+<meta name='yandex-verification' content='52decbe05fcb6849' />
+ <!-- _mncheckrights210762_ -->
+
+<meta name="google-site-verification" content="iteGMjeA2sxfdVDlEZHVXRSPdnf2eJTI_pCZ6o3F0Ts" />
+<meta name="google-site-verification" content="_lpshVa-NTrhiLx35W0kbMImo63Mn8ykgF1Ty3GP1oc" />
+<meta name="yandex-verification" content="c4d61d0c2a85513a" />
+<meta name="adprofits-site-verification" content="adprofits-site-1492" />
+  <link rel='next' href='/?offset=30'>
+
+
+<script type="text/javascript">
+$(function(){
+rm_h.layout.addPageEars('https://static.grouple.co/uploads/pics/12/52/217_o.png', 'https://readmanga.live/elektrosens' );
+rm_h.layout.addPageTop('https://static.grouple.co/uploads/pics/12/52/216_o.jpg', 'https://readmanga.live/elektrosens' );
+})
+</script>
+</head>
+
+<body>
+<div id="wrap">
+<script type="text/javascript" >
+  rm_h.user.restoreUserSettings();
+</script>
+
+<script>
+       
+
+</script>
+<div class="navbar navbar-default ">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-label="Меню">
+        <i class="fa fa-bars fa-lg"></i>
+      </button>
+
+      <div class="mobile-block visible-xxs-block">
+        <a href='https://grouple.co/chat/index'><i class='fa fa-lg fa-comment'></i></a>
+      </div>
+      <div class="mobile-block visible-xxs-block">
+        <a href="/search">
+          <i class="fa fa-lg fa-search"></i>
+        </a>
+
+      
+      </div>
+
+      <a href="/" class="navbar-brand">
+        <img src="https://res.readmanga.live/static/logo-40326e8b76b0db610fa47f0801711aea.png" width="250" height="45" class="hidden-sm hidden-xs logo" alt="Читать мангу Online" title="ReadManga.live -- читай мангу с удовольствием"/>
+        <img src="https://res.readmanga.live/static/logo_m-1b2831fef94e15ded4ca97581ad07213.png" width="80" height="40" class="hidden-lg hidden-md logo" alt="Читать мангу Online" title="ReadManga.live -- читай мангу с удовольствием"/>
+      </a>
+    </div>
+
+    
+      <span class="navbar-text hidden-xxs" data-toggle="tooltip" title="Все наши сайты"><i class="btn-link fa fa-caret-square-down fa-lg federation-menu-open"></i></span>
+    
+    <div id="navbar" class="navbar-collapse collapse">
+      
+        <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+          <li>
+            <a href="https://grouple.co/forum/posts/list/0/23305.page" data-toggle="tooltip" title="ЧаВо - ответы на частые вопросы" target="_blank" rel="noopener">
+              <span class="fa fa-question-circle fa-lg"> </span>
+            </a>
+          </li>
+        </ul>
+      
+      <form action="/search" method="post" class="navbar-form navbar-right" >
+  <div class="fast-search input-group">
+    <select id="q" placeholder="Название манги или автор" class="form-control head-suggestion" maxlength="50"></select>
+    <span class="input-group-btn">
+      <button type="submit" title="Поиск" class="btn btn-default">
+        <span class="fa fa-search"></span>
+      </button>
+    </span>
+  </div>
+</form>
+
+
+
+      <ul id="accountMenu" class="nav navbar-nav navbar-right">
+        
+<!---->
+
+
+
+  <li><a class='strong' href='https://grouple.co/internal/auth/register?siteId=1' >Регистрация</a></li>
+  <li><a class='strong' href='/internal/auth' >Вход</a></li>
+
+
+<script type="text/javascript">
+  
+  document.cookie = "JSESSIONID=793146334B1B145FFEA851A874E42A17; path=/";
+  
+</script>
+
+      </ul>
+      
+        <ul class="hidden-lg hidden-md hidden-sm hidden-xs visible-xxs-inline list-unstyled">
+          <li>
+            <a href="https://readmanga.live" title="Читай мангу" rel="nofollow">ReadManga</a>
+
+<a href="/internal/redirect?type=ad&amp;id=%2F" title="Читай взрослую мангу">MintManga</a>
+
+
+<a href="https://doramatv.live" title="Смотри и обсуждай Дораму онлайн" rel="nofollow">DoramaTV</a>
+
+<a href="https://librebook.me" title="Читай книги онлайн" rel="nofollow">LibreBook</a>
+<a href="https://findanime.net" title="Смотри и обсуждай аниме онлайн" rel="nofollow">FindAnime</a>
+<a href="https://selfmanga.live" title="Создавай и читай мангу" rel="nofollow">SelfManga</a>
+
+<a href="https://selflib.me" title="Создавай и читай самиздат" rel="nofollow">SelfLib</a>
+<a href="https://mose.live" title="Смотри сериалы" rel="nofollow">MoSe</a>
+
+<a href="https://grouple.co" title="Закладки, активности, общение" rel="nofollow">GroupLe</a>
+          </li>
+        </ul>
+      
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+  <div class="federation-nav">
+    <div class="container">
+      <a href="https://readmanga.live" title="Читай мангу" rel="nofollow">ReadManga</a>
+
+<a href="/internal/redirect?type=ad&amp;id=%2F" title="Читай взрослую мангу">MintManga</a>
+
+
+<a href="https://doramatv.live" title="Смотри и обсуждай Дораму онлайн" rel="nofollow">DoramaTV</a>
+
+<a href="https://librebook.me" title="Читай книги онлайн" rel="nofollow">LibreBook</a>
+<a href="https://findanime.net" title="Смотри и обсуждай аниме онлайн" rel="nofollow">FindAnime</a>
+<a href="https://selfmanga.live" title="Создавай и читай мангу" rel="nofollow">SelfManga</a>
+
+<a href="https://selflib.me" title="Создавай и читай самиздат" rel="nofollow">SelfLib</a>
+<a href="https://mose.live" title="Смотри сериалы" rel="nofollow">MoSe</a>
+
+<a href="https://grouple.co" title="Закладки, активности, общение" rel="nofollow">GroupLe</a>
+    </div>
+  </div>
+
+<div class="second-nav">
+  <div class="container">
+    
+<div class="nav-main-menu">
+  <div class="pull-right">
+    <strong>
+      <span class="hidden-xs"><a href="/">Главная</a></span>
+      <a href="/list/presentation">Каталог<span class="hidden-xxs"> манги</span></a> <i class="js-link sub-menu-open fa fa-lg fa-caret-down"></i>
+      <a href="/list?sortType=rate&filter=sale" title="Купить мангу онлайн">Лицензия</a><a href="/recommendations/index" title="Персональные рекомендации" class=hidden-xs>Рекомендации<sup class=manga-updated hidden-xs>new</sup></a> <a href="https://librebook.me" title="Читай и обсуждай книги онлайн">Книги</a> <a href="https://mose.live" title="Смотри и обсуждай русские сериалы и турецкие фильмы онлайн" class=hidden-xs>Фильмы</a> <a href="https://grouple.co/bazar" title="Маленький уютный базарчик" class=hidden-xs>Базар</a>
+      
+        <a href="https://grouple.co">GroupLe</a>
+      
+    </strong>
+  </div>
+  <div class="pull-left hidden-sm hidden-xs">
+    
+  </div>
+  <div class="clearfix"><!----></div>
+</div>
+<div class="nav-sub-menu hide row">
+  <div class="col-md-3 col-xs-6">
+    <ul>
+      <li><a href="/review/list">Рецензии</a></li>
+      <li><a href="/collection">Коллекции</a></li>
+      <li><a href="/news/allnews">Новости</a></li>
+      <li><a href="/quote">Цитаты</a></li>
+    </ul>
+  </div>
+  <div class="col-md-3 col-xs-6">
+    <ul>
+      <li>манги:</li>
+      <li><a href="/list?sortType=created">Новинки</a></li>
+      <li><a href="/list?sortType=votes">По рейтингу</a></li>
+      
+    </ul>
+  </div>
+  <div class="col-md-3 col-xs-6">
+    <ul>
+      <li><strong><a href="/list?sortType=updated">Каталог</a></strong></li>
+      <li>
+        
+          <a href="/list/authors/sort_name">Авторы</a>
+        
+      </li>
+      <li><a href="/list/genres/sort_name">Жанры</a></li>
+    </ul>
+  </div>
+  <div class="col-md-3 col-xs-6" >
+    <ul>
+      <li><a href="/internal/random">Случайная манга</a></li>
+      <li><a href="/news/calendar/month">Календарь</a></li>
+    </ul>
+  </div>
+</div>
+
+<script type="text/javascript">
+  rm_h.navMenu.process();
+</script>
+  </div>
+</div>
+
+
+
+
+<div class="pageBlock container " id="mangaBox">
+  
+
+  <div class="co_ba top_ba">
+  <noindex>
+    
+      
+
+
+<script>
+  decodeBaBlocks(
+    'PHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCiAgIC5jb19iYS50b3BfYmEgeyBtYXgtaGVpZ2h0OiAxMjBweDsgfQ0KPC9zdHlsZT4NCg0KPCEtLSBZYW5kZXguUlRCIFItQS01OTUzNDAtMSAtLT4NCjxkaXYgaWQ9InlhbmRleF9ydGJfUi1BLTU5NTM0MC0xIj48L2Rpdj4NCg==',
+    'PHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCiAgIC5jb19iYS50b3BfYmEgeyBtYXgtaGVpZ2h0OiAxMjBweDsgfQ0KPC9zdHlsZT4NCg0KPCEtLSBZYW5kZXguUlRCIFItQS01OTUzNDAtMiAtLT4NCjxkaXYgaWQ9InlhbmRleF9ydGJfUi1BLTU5NTM0MC0yIj48L2Rpdj4NCg=='
+  );
+</script>
+    
+  </noindex>
+</div>
+  
+  
+    <div class="leftContent">
+      
+  
+
+  
+  <h3>
+    Выбор редакции
+  </h3>
+
+
+<div class="row tiles-row short">
+  
+    <div class="simple-tile " >
+  <a href="/bashnia_boga/vol3/68">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/00/99/917_p.jpg' title='Башня Бога' alt='Башня Бога' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Башня Бога 3 - 68. Siu: драма, сверхъестественное, сёнэн, боевик, приключения, комедия" data-toggle="tooltip">
+      
+        <span class="num">3 - 68</span>
+      
+      Башня Бога
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Башня Бога</h5>
+        <p>Башня — место, в котором испытывается воля и где исполняются самые невероятные желания. Если Башня избрала тебя, то всё, что надо сделать, — покорить её, и тогда у тебя будут и богатство, и власть, и сила — что бы ты ни пожелал, оно станет твоим. Однако покорение может занять годы, если не века. А ты готов покорить Башню?</p>
+    </div>
+
+  </a>
+</div>
+  
+    <div class="simple-tile " >
+  <a href="/van_pis/vol100/1008">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/00/76/146_p.jpg' title='Ван Пис' alt='Ван Пис' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Ван Пис 100 - 1008. Ода Эйитиро: драма, сверхъестественное, боевые искусства, сёнэн, боевик, приключения, психология, комедия, фэнтези" data-toggle="tooltip">
+      
+        <span class="num">100 - 1008</span>
+      
+      Ван Пис
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Ван Пис</h5>
+        <p><span><span><span>&nbsp;</span></span></span>Последние слова, произнесённые перед казнью Королем Пиратов, Гол Д. Роджером, вдохновили многих выйти в море: &laquo;Мои сокровища? Я завещаю их тому, кто сможет их найти. Ищите! Я всё оставил в одном месте!&raquo;. Лишённые сна и покоя люди ринулись на Гранд Лайн — самое опасное место в мире. Так началась великая эра пиратов...<br /></p><div style="text-align: center; text-indent: 0px">Но с каждым годом романтиков становилось всё меньше: их постепенно вытесняли прагматичные пираты-разбойники, которым награбленное добро было куда ближе, чем какие-то &laquo;никчёмные мечты&raquo;. Но вот одним прекрасным днём семнадцатилетний Монки Д. Луффи исполнил заветную мечту детства <font face="sans-serif"><span style="font-size: 13px">—&nbsp;</span></font>отправился в море. Его цель ни много ни мало&nbsp;<span style="color: rgb(0, 0, 0); font-family: sans-serif; font-size: 13px; text-align: start; text-indent: 0px; background-color: rgb(255, 255, 255)">—</span>&nbsp;стать новым Королём Пиратов. За достаточно короткий срок юному капитану удаётся собрать команду, состоящую из не менее амбициозных искателей приключений. И пусть ими движут совершенно разные устремления, главным для этих ребят являются не столько деньги и слава, сколько куда более ценное — принципы и верность друзьям. И ещё — служение Мечте.</div><p></p> 
+<p>Что же, пока по Гранд Лайн плавают такие люди, Великая Эра Пиратов всегда будет с нами! &nbsp;</p> 
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i>&nbsp;&copy; Алексей Мелихов, World Art</i></p>
+    </div>
+
+  </a>
+</div>
+  
+    <div class="simple-tile " >
+  <a href="/tales_of_demons_and_gods/vol2/319">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/28/772_p.jpg' title='Сказания о демонах и богах' alt='Сказания о демонах и богах' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Сказания о демонах и богах 2 - 319. героическое фэнтези, романтика, боевые искусства, сёнэн, боевик, приключения, гарем, комедия, фэнтези" data-toggle="tooltip">
+      
+        <span class="num">2 - 319</span>
+      
+      Сказания о демонах и богах
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Сказания о демонах и богах</h5>
+        <p>Сильнейший в мире заклинатель демонов Не Ли погиб в битве с Мудрецом-Императором. Но его душа воплотилась вновь, вернувшись на десятилетия назад, в нём самом, тринадцатилетнем подростке. Теперь у него есть шанс исправить все ошибки, совершённые в прошлом: спасти от монстров родной город, защитить любимую, друзей и семью. В детстве Не Ли &nbsp;был самым слабым учеником в классе, имея духовную силу на уровне простых людей. Он и мечтать не смел стать воином, не говоря уже о заклинателе демонов, но опыт и знания, накопленные в предыдущей жизни, помогут ему стать сильнее. Ведь сейчас он знает то, что неведомо профессорам в их боевой академии.</p>
+    </div>
+
+  </a>
+</div>
+  
+    <div class="simple-tile " >
+  <a href="/19_days___one_day/vol1/315">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/00/79/477_p.jpg' title='19 дней — Однажды' alt='19 дней — Однажды' width='130' height='180'/>
+    
+
+    <div class="strong title" title="19 дней — Однажды 1 - 315. Олд Сянь, Студия Мосспака: повседневность, сёнэн-ай, драма, школа, романтика, комедия" data-toggle="tooltip">
+      
+        <span class="num">1 - 315</span>
+      
+      19 дней — Однажды
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>19 дней — Однажды</h5>
+        <p>Стрипы от автора Old先 про персонажей её маньхуа из сборника &laquo;19 Дней&raquo;.</p>
+    </div>
+
+  </a>
+</div>
+  
+    <div class="simple-tile " >
+  <a href="/battle_through_the_heavens/vol2/325">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/55/954_p.jpg' title='Расколотая битвой синева небес' alt='Расколотая битвой синева небес' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Расколотая битвой синева небес 2 - 325. драма, романтика, боевые искусства, сёнэн, боевик, приключения, комедия, гарем, фэнтези" data-toggle="tooltip">
+      
+        <span class="num">2 - 325</span>
+      
+      Расколотая битвой синева небес
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Расколотая битвой синева небес</h5>
+        <div><div style="text-align: justify">В этом мире нет ни грамма волшебства. Здесь правит сильный, а слабому остаётся лишь повиноваться. Прекрасная земля, где не счесть драгоценных сокровищ, таит множество смертельных опасностей. Сяо Ян, чьим талантам не было равных уже несколько поколений, за три года растерял всё своё могущество, репутацию и, главное, обманул надежды своей матери. Какое чёрное волшебство лишило его всего на свете? И почему именно сейчас ему на голову свалилась его наречённая?</div></div>
+    </div>
+
+  </a>
+</div>
+  
+</div>
+
+  
+  <h3>
+    Горячие новинки
+    <small>
+      <i class="fa fa-info-circle text-warning" data-toggle="tooltip" title="Самые популярные, добавленные на сайт за последние 50 дней"></i>
+
+      <a href="/list?sortType=created">далее</a>
+    </small>
+  </h3>
+
+
+<div class="row tiles-row short">
+  
+    <div class="simple-tile " >
+  <a href="/kak_zachitit_starshego_brata_glavnoi_geroini">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/61/892_p.jpg' title='Как защитить старшего брата главной героини' alt='Как защитить старшего брата главной героини' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Как защитить старшего брата главной героини . романтика, драма, сёдзё" data-toggle="tooltip">
+      
+      Как защитить старшего брата главной героини
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Как защитить старшего брата главной героини</h5>
+        <div style="text-align: justify"><span style="color: rgb(33, 37, 41); font-size: 14px"><i>Предупреждение. Произведение содержит изображения жестокости&nbsp; кровопролития. Некоторые сцены могут вызвать у вас дискомфорт, имейте это в виду.</i></span></div><div style="text-align: justify"><span style="font-size: 16px"><br /></span></div><div style="text-align: justify"><span style="color: rgb(33, 37, 41); font-size: 14px">Я случайно оказалась в теле персонажа из романа-гаремника с рейтингом 19+. Проблема в том, что я стала Роксаной Агриче, старшей сестрой второстепенного злодея, а мой проклятый отец похитил брата главной героини.</span></div><span style="color: rgb(33, 37, 41); font-size: 14px"><div style="text-align: justify">И из-за мести главной героини меня ждёт ужасный конец? А что если я смогу избежать этого ужасного развития событий?...</div></span><span style="color: rgb(33, 37, 41); font-size: 14px"><div style="text-align: justify"><br />И так Роксана Агриче решает защищать Кассиса Педалиана -- брата главной героини -- пока тот благополучно не выберется из поместья.</div></span>
+    </div>
+
+  </a>
+</div>
+  
+    <div class="simple-tile " >
+  <a href="/sozdatel_zlodeiki">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/60/570_p.jpg' title='Создатель злодейки' alt='Создатель злодейки' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Создатель злодейки . драма, романтика, сёдзё, фэнтези" data-toggle="tooltip">
+      
+      Создатель злодейки
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Создатель злодейки</h5>
+        <div><font color="#000000"><span style="font-size: 13px">Я очутилась в теле злодейки романа. К тому же это был фэнтезийный роман, который я сама написала лет 10 назад. Злодейка Айла —&nbsp;женщина, которая проклинала главную героиню, и которой было судьбой уготована смерть от рук главного героя. Но что если я не стану злодейкой, что тогда?</span></font><br /><font color="#000000"><span style="font-size: 13px">—&nbsp;В этот раз я буду бездельничать как безработная богачка всю свою жизнь!</span></font><br /><span style="color: rgb(0, 0, 0); font-size: 13px">Однако, стоило мне начать болтаться без дела, как внезапно один и тот же день начал повторяться снова и снова. Возможно ли, что причиной этому стало то, что я решила не вести себя, как злодейка?! Я не хочу умирать!</span><br /><font color="#000000"><span style="font-size: 13px">—&nbsp;Пожалуйста, остановите временную петлю...</span></font><br /><font color="#000000"><span style="font-size: 13px">—&nbsp;Это легко сделать. Тебе лишь нужно стать настоящей злодейкой.</span></font><br /><font color="#000000"><span style="font-size: 13px">—&nbsp;Настоящей злодейкой?</span></font><br /><font color="#000000"><span style="font-size: 13px">—&nbsp;Богатство, власть, почёт, мужчины... Ты можешь присвоить себе всё что угодно.</span></font><br /><span style="color: rgb(0, 0, 0); font-size: 13px">Однажды ко мне пришёл колдун, от которого так и веяло опасностью.</span><br /><font color="#000000"><span style="font-size: 13px">—&nbsp;Если желаешь, я заберу у неё корону и с радостью возложу на твою голову. И после проложу для тебя дорогу к трону...</span></font><br /><span style="color: rgb(0, 0, 0); font-size: 13px">Этот мужчина, словно Дьявол, нашёптывал мне сладкие слова на ушко своим нежнейшим голосом.</span><br /><font color="#000000"><span style="font-size: 13px">—&nbsp;Итак, твой ответ?</span></font><br /><span style="color: rgb(0, 0, 0); font-size: 13px">И правда, смогу ли я остановить временную петлю и переродиться истинной злодейкой?</span><br /></div>
+    </div>
+
+  </a>
+</div>
+  
+    <div class="simple-tile for-sale" >
+  <a href="/elektrosens">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/62/846_p.jpg' title='Электросенс' alt='Электросенс' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Электросенс . Кальмар: повседневность, сверхъестественное, комедия, школа" data-toggle="tooltip">
+      
+      Электросенс
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Электросенс</h5>
+        <p>Во все времена люди верили в призраков. Главный герой Гена еще школьник, но уже знает, как зарабатывать на этом деньги. Он притворяется экстрасенсом, проводя сеансы ученикам в тесной кладовке прямо посреди школы. А плюс ко всему у него есть суперсила, которую он разбазаривает попусту, впечатляя облапошенных клиентов. Но однажды ему приходится использовать свою силу для спасения жизни, и тут для него открывается ее новое применение...<br /> </p><div>Как именно это случится, читайте в новой легкой комедии &quot;Электросенс&quot;!</div><p></p>
+    </div>
+
+  </a>
+</div>
+  
+    <div class="simple-tile " >
+  <a href="/ia_rodila_rebenka_ot_tirana">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/60/285_p.jpg' title='Я родила ребёнка от тирана' alt='Я родила ребёнка от тирана' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Я родила ребёнка от тирана . романтика, фэнтези" data-toggle="tooltip">
+      
+      Я родила ребёнка от тирана
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Я родила ребёнка от тирана</h5>
+        <div style="text-align: justify">То была ночь ежегодного фестиваля.</div><div style="text-align: justify">Когда Иллан открыла глаза, то рядом с собой увидела императора, печально известного своей жестокостью, спящего рядом с ней. Ей ничего не оставалось, кроме как сбежать.<br /></div><div style="text-align: justify">Но неожиданная беременность... Иллан решила скрыть этот факт, услышав, что император ненавидит женщин, которые приближаются к нему.&nbsp;</div>
+    </div>
+
+  </a>
+</div>
+  
+    <div class="simple-tile " >
+  <a href="/ohotnik_suicidnik_sss_urovnia">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/60/358_p.jpg' title='Охотник-суицидник SSS-уровня' alt='Охотник-суицидник SSS-уровня' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Охотник-суицидник SSS-уровня . сёнэн, игра, приключения, фэнтези" data-toggle="tooltip">
+      
+      Охотник-суицидник SSS-уровня
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Охотник-суицидник SSS-уровня</h5>
+        
+    </div>
+
+  </a>
+</div>
+  
+</div>
+
+  
+  <h3>
+    Популярные на этой неделе
+    <small>
+      <i class="fa fa-info-circle text-warning" data-toggle="tooltip" title="Самые популярные в течение недели"></i>
+    </small>
+  </h3>
+
+
+<div class="row tiles-row short">
+  
+    <div class="simple-tile " >
+  <a href="/podniatie_urovnia_v_odinochku">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/41/131_p.jpg' title='Поднятие уровня в одиночку' alt='Поднятие уровня в одиночку' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Поднятие уровня в одиночку . драма, сёнэн, игра, приключения, фэнтези" data-toggle="tooltip">
+      
+      Поднятие уровня в одиночку
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Поднятие уровня в одиночку</h5>
+        <p>10 лет назад, после того как распахнулись Врата, связавшие наш мир с миром монстров, некоторые люди приобрели способности, позволяющие им охотиться на монстров внутри Врат. Их стали именовать Охотниками. Однако не все Охотники были сильны. Моё имя — Сун Джин-У, я охотник ранга Е. Мне приходится рисковать своей жизнью в самых низкоуровневых подземельях. Не имея необходимых навыков, я едва мог зарабатывать деньги, сражаясь со слабейшими монстрами... По крайней мере это длилось до того, пока я не нашёл скрытое подземелье, сложнейшее из всех подземелий ранга D! Находясь на грани жизни и смерти, я внезапно получил странную силу — &laquo;Систему&raquo;, содержащую секреты и особенности поднятия уровня, о которых я даже и не догадывался! Если я хочу, чтобы мой уровень постоянно рос, я должен начать тренировки в соответствии со списком квестов. От самого слабого Охотника E-ранга к сильнейшему Охотнику S-ранга!</p><div style="text-align: right"><i>Описание от Ньюби.</i></div>
+    </div>
+
+  </a>
+</div>
+  
+    <div class="simple-tile " >
+  <a href="/martial_peak">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/45/320_p.jpg' title='Пик боевых искусств' alt='Пик боевых искусств' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Пик боевых искусств . Момо: героическое фэнтези, боевые искусства, боевик, приключения, гарем, фэнтези" data-toggle="tooltip">
+      
+      Пик боевых искусств
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Пик боевых искусств</h5>
+        <i><b>На основе одноименного романа.</b></i><div><br /></div><div>Путь на вершину боевых искусств - длинное и одинокое испытание. Перед лицом невзгод ты должен оставаться сильным и неотступным. Только тогда ты сможешь преодолеть все препятствия и стать по-настоящему сильным. <br /><br />Небесный Павильон обучает своих учеников самым суровым образом, чтобы они могли выстоять в мире боевых искусств. Здесь правит закон джунглей и берут не количеством, а качеством. Один гений затмит сотни посредственных. Наш главный герой, Ян Кай - ученик Небесного Павильона, относится ко вторым. Однако он не намерен подчиняться своей судьбе, ведь твёрдо верит: труд и усердие - путь к пику боевых искусств!&nbsp;</div>
+    </div>
+
+  </a>
+</div>
+  
+    <div class="simple-tile " >
+  <a href="/nevesta_gercoga_po_kontraktu">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/15/801_p.jpg' title='Невеста герцога по контракту' alt='Невеста герцога по контракту' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Невеста герцога по контракту . драма, романтика, сверхъестественное, детектив, сёдзё" data-toggle="tooltip">
+      
+      Невеста герцога по контракту
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Невеста герцога по контракту</h5>
+        <div style="text-align: justify">После неожиданной гибели Пак Ын Ха попадает в волшебный мир, где всё идёт по знакомому ей сюжету романа. Однако она - не главная героиня этой истории, ей досталась второстепенная роль со скорым трагичным концом! Чтобы избежать своей незавидной судьбы, она заключает контракт с герцогом Ноа Волстео Виннайтом. Но всё не так просто... За добрым и ангельским лицом герцога скрывается настоящий дьявол! Сможет ли она избежать судьбы, некогда прописанной на страницах?</div><div style="text-align: justify"><br /></div>
+    </div>
+
+  </a>
+</div>
+  
+    <div class="simple-tile " >
+  <a href="/you_re_here">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/37/246_p.jpg' title='Ты здесь' alt='Ты здесь' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Ты здесь . Ди. Цзюнь: романтика, сёнэн-ай, школа" data-toggle="tooltip">
+      
+      Ты здесь
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Ты здесь</h5>
+        Прием новичков - задача Ю Яна, и он помогает нелюдимому и высоченному Ли Хуану, человеку, который делает всё, чтобы не нравиться окружающим. Но стоило узнать гиганта получше, как Ю Ян обнаруживает, что тот не такой уж и плохой человек...
+    </div>
+
+  </a>
+</div>
+  
+    <div class="simple-tile " >
+  <a href="/o_moem_pererojdenii_v_sliz">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/00/969_p.jpg' title='О моём перерождении в слизь' alt='О моём перерождении в слизь' width='130' height='180'/>
+    
+
+    <div class="strong title" title="О моём перерождении в слизь . драма, героическое фэнтези, романтика, боевик, сёнэн, игра, приключения, комедия, фэнтези, гендерная интрига" data-toggle="tooltip">
+      
+      О моём перерождении в слизь
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>О моём перерождении в слизь</h5>
+        <p>37-летний японец-холостяк был зарезан на улице каким-то мерзавцем-грабителем. Тут бы и истории конец, да всё обернулось иначе: неожиданно он переродился слизью в фэнтезийном мире. Однако что может сделать, пускай и разумная, но слизь?</p>
+    </div>
+
+  </a>
+</div>
+  
+</div>
+
+  <div class="co_ba middle_ba">
+  <noindex>
+    
+      
+
+
+<script>
+  decodeBaBlocks(
+    'PHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCi5taWRkbGVfYmEge21heC1oZWlnaHQ6IDM1MHB4O30NCjwvc3R5bGU+DQoNCjxkaXYgaWQ9ImFkZm94XzE2MDIyMTM3MzA5Mzc0OTY1NiI+PC9kaXY+DQo=',
+    'PHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCi5taWRkbGVfYmEge21heC1oZWlnaHQ6IDQwMHB4OyBtYXJnaW4tbGVmdDogLTEwcHg7IG1hcmdpbi1yaWdodDogLTEwcHg7fQ0KPC9zdHlsZT4NCg0KPGRpdiBpZD0iYWRmb3hfMTYwMjk0MjYzMzE0MDU1ODI2Ij48L2Rpdj4NCg=='
+  );
+</script>
+    
+  </noindex>
+</div>
+
+  <div class="mainNews">
+    <h3>Новости <small><a href="/news/allnews">далее</a> <a href="/internal/news/create" class="text-additional" data-toggle="tooltip" data-placement="top" title="Напишите новость о чем-то интересном в мире манги">добавить новость</a></small></h3>
+
+    <!-- <center><a href="https://librebook.me/collection/luchshie_knigi_2018_goda" class="nonHover" target="_blank"><img src="https://static.librebook.me/uploads/pics/02/27/364_o.png" style="margin-bottom:5px"></a></center> -->
+
+    
+
+  <div class="news-tiles row">
+    
+      
+      
+
+      <div class="col-sm-6 tile ">
+        
+          <a href="https://readmanga.live/news/show_vozobnovliaetsia_vypusk__araty__legenda_">
+            <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/64/131.jpg' title='Возобновляется выпуск "Араты: Легенда"' alt='Возобновляется выпуск "Араты: Легенда"' width='385' height='235'/>
+          </a>
+        
+        <div class="desc">
+          <meta itemprop="dateCreated" content="2021-03-27"/>
+          <meta itemprop="url" content="https://readmanga.live/news/show_vozobnovliaetsia_vypusk__araty__legenda_"/>
+          <h3 title="Возобновляется выпуск &quot;Араты: Легенда&quot;" data-toggle="tooltip">
+            
+            <a href="/news/show_vozobnovliaetsia_vypusk__araty__legenda_">Возобновляется выпуск "Араты: Легенда"</a>
+
+
+
+          </h3>
+
+          <div class="details text-additional small">
+            
+            <span data-toggle="tooltip" title="Дата написания 26.03.21">27.03.2021</span>
+            
+              <a href="https://grouple.co/user/1621458" hideStatus="true" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>PitchBlack</span></a>
+            
+          </div>
+          <div class="news-summary">
+            Ватасэ Ю сообщила в своем твиттере, что она и редакция журнала Weekly Shonen Sunday определились с датой возобновления манги &quot;Арата: Легенда&quot;, как и с датой издания 13 тома &quot;переработанного издания&quot;. Анонс&hellip;
+            <a href="/news/show_vozobnovliaetsia_vypusk__araty__legenda_">далее</a>
+          </div>
+        </div>
+      </div>
+    
+      
+      
+
+      <div class="col-sm-6 tile ">
+        
+          <a href="https://readmanga.live/news/show_akasaka_aka_gotovit_kollab_s_uchastnicami_hinatazaka46">
+            <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/64/017.jpg' title='Акасака Ака готовит коллаб с участницами Hinatazaka46' alt='Акасака Ака готовит коллаб с участницами Hinatazaka46' width='385' height='235'/>
+          </a>
+        
+        <div class="desc">
+          <meta itemprop="dateCreated" content="2021-03-23"/>
+          <meta itemprop="url" content="https://readmanga.live/news/show_akasaka_aka_gotovit_kollab_s_uchastnicami_hinatazaka46"/>
+          <h3 title="Акасака Ака готовит коллаб с участницами Hinatazaka46" data-toggle="tooltip">
+            
+            <a href="/news/show_akasaka_aka_gotovit_kollab_s_uchastnicami_hinatazaka46">Акасака Ака готовит коллаб с участницами Hinatazaka46</a>
+
+
+
+          </h3>
+
+          <div class="details text-additional small">
+            
+            <span data-toggle="tooltip" title="Дата написания 23.03.21">23.03.2021</span>
+            
+              <a href="https://grouple.co/user/1621458" hideStatus="true" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>PitchBlack</span></a>
+            
+          </div>
+          <div class="news-summary">
+            Журнал Young Jump сообщил, что мангака Акасака Ака готовит совместный проект с участницами айдол-группы Hinatazaka46 под названием Gensaku Hinatazaka (&quot;Оригинальный проект Hinatazaka&quot;). Ватанабэ Михо,&hellip;
+            <a href="/news/show_akasaka_aka_gotovit_kollab_s_uchastnicami_hinatazaka46">далее</a>
+          </div>
+        </div>
+      </div>
+    
+      
+      
+
+      <div class="col-sm-6 tile ">
+        
+          <a href="https://readmanga.live/news/show_takahasi_rumiko_gotovit_novyi_vanshot">
+            <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/63/921.jpg' title='Такахаси Румико готовит новый ваншот' alt='Такахаси Румико готовит новый ваншот' width='385' height='235'/>
+          </a>
+        
+        <div class="desc">
+          <meta itemprop="dateCreated" content="2021-03-23"/>
+          <meta itemprop="url" content="https://readmanga.live/news/show_takahasi_rumiko_gotovit_novyi_vanshot"/>
+          <h3 title="Такахаси Румико готовит новый ваншот" data-toggle="tooltip">
+            
+            <a href="/news/show_takahasi_rumiko_gotovit_novyi_vanshot">Такахаси Румико готовит новый ваншот</a>
+
+
+
+          </h3>
+
+          <div class="details text-additional small">
+            
+            <span data-toggle="tooltip" title="Дата написания 20.03.21">23.03.2021</span>
+            
+              <a href="https://grouple.co/user/1621458" hideStatus="true" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>PitchBlack</span></a>
+            
+          </div>
+          <div class="news-summary">
+            Журнал Big Comic Original сообщил, что Такахаси Румико готовит ваншот &quot;Женщина из прошлого&quot; (Mukashi no Onna), который войдет в состав &quot;Театра Такахаси Румико&quot;. Манга выйдет 5 апреля с цветной первой страницей.&hellip;
+            <a href="/news/show_takahasi_rumiko_gotovit_novyi_vanshot">далее</a>
+          </div>
+        </div>
+      </div>
+    
+      
+      
+
+      <div class="col-sm-6 tile ">
+        
+          <a href="https://readmanga.live/news/show__friren__provojaiuchaia_v_poslednii_put__zavoevala_premiiu_manga_taisho">
+            <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/63/790.jpg' title='"Фрирен, провожающая в последний путь" завоевала премию Manga Taisho' alt='"Фрирен, провожающая в последний путь" завоевала премию Manga Taisho' width='385' height='235'/>
+          </a>
+        
+        <div class="desc">
+          <meta itemprop="dateCreated" content="2021-03-17"/>
+          <meta itemprop="url" content="https://readmanga.live/news/show__friren__provojaiuchaia_v_poslednii_put__zavoevala_premiiu_manga_taisho"/>
+          <h3 title="&quot;Фрирен, провожающая в последний путь&quot; завоевала премию Manga Taisho" data-toggle="tooltip">
+            
+            <a href="/news/show__friren__provojaiuchaia_v_poslednii_put__zavoevala_premiiu_manga_taisho">"Фрирен, провожающая в последний путь" завоевала премию Manga Taisho</a>
+
+
+
+          </h3>
+
+          <div class="details text-additional small">
+            
+            <span data-toggle="tooltip" title="Дата написания 17.03.21">17.03.2021</span>
+            
+              <a href="https://grouple.co/user/1621458" hideStatus="true" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>PitchBlack</span></a>
+            
+          </div>
+          <div class="news-summary">
+            Официальный твиттер журнала Weekly Shonen Sunday сообщил, что манга Ямады Канэхито и Абэ Цукасы &quot;Фрирен, провожающая в последний путь&quot; получила четырнадцатую премию Manga Taisho. В честь победы Абэ нарисовал&hellip;
+            <a href="/news/show__friren__provojaiuchaia_v_poslednii_put__zavoevala_premiiu_manga_taisho">далее</a>
+          </div>
+        </div>
+      </div>
+    
+      
+      
+
+      <div class="col-sm-6 tile ">
+        
+          <a href="https://readmanga.live/news/show_anonsirovana_vtoraia_chast__bisko_rjavoeda_">
+            <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/63/659.jpg' title='Анонсирована вторая часть "Биско-Ржавоеда"' alt='Анонсирована вторая часть "Биско-Ржавоеда"' width='385' height='235'/>
+          </a>
+        
+        <div class="desc">
+          <meta itemprop="dateCreated" content="2021-03-16"/>
+          <meta itemprop="url" content="https://readmanga.live/news/show_anonsirovana_vtoraia_chast__bisko_rjavoeda_"/>
+          <h3 title="Анонсирована вторая часть &quot;Биско-Ржавоеда&quot;" data-toggle="tooltip">
+            
+            <a href="/news/show_anonsirovana_vtoraia_chast__bisko_rjavoeda_">Анонсирована вторая часть "Биско-Ржавоеда"</a>
+
+
+
+          </h3>
+
+          <div class="details text-additional small">
+            
+            <span data-toggle="tooltip" title="Дата написания 14.03.21">16.03.2021</span>
+            
+              <a href="https://grouple.co/user/1621458" hideStatus="true" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>PitchBlack</span></a>
+            
+          </div>
+          <div class="news-summary">
+            Художница Нацуки Со сообщила, что будет работать над новой частью манга-адаптации ранобэ Кобукубо Синдзи &quot;Биско-Ржавоед&quot;. Первая часть от Такахаси Юсукэ выходила на сайте Manga Up! с 2019 года. Издано&hellip;
+            <a href="/news/show_anonsirovana_vtoraia_chast__bisko_rjavoeda_">далее</a>
+          </div>
+        </div>
+      </div>
+    
+      
+      
+
+      <div class="col-sm-6 tile ">
+        
+          <a href="https://readmanga.live/news/show_v_sentiabre_vyhodit_novaia_manga_ot_iamadzaki_kore">
+            <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/63/527.jpg' title='В сентябре выходит новая манга от Ямадзаки Корэ' alt='В сентябре выходит новая манга от Ямадзаки Корэ' width='385' height='235'/>
+          </a>
+        
+        <div class="desc">
+          <meta itemprop="dateCreated" content="2021-03-11"/>
+          <meta itemprop="url" content="https://readmanga.live/news/show_v_sentiabre_vyhodit_novaia_manga_ot_iamadzaki_kore"/>
+          <h3 title="В сентябре выходит новая манга от Ямадзаки Корэ" data-toggle="tooltip">
+            
+            <a href="/news/show_v_sentiabre_vyhodit_novaia_manga_ot_iamadzaki_kore">В сентябре выходит новая манга от Ямадзаки Корэ</a>
+
+
+
+          </h3>
+
+          <div class="details text-additional small">
+            
+            <span data-toggle="tooltip" title="Дата написания 11.03.21">11.03.2021</span>
+            
+              <a href="https://grouple.co/user/1621458" hideStatus="true" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>PitchBlack</span></a>
+            
+          </div>
+          <div class="news-summary">
+            Тизер нового аниме по &quot;Невесте чародея&quot; анонсировал также новую мангу от Ямадзаки Корэ под предварительным названием &quot;Призрак и ведьма&quot; (Ghost and Witch). Публикация начнется с 10 сентября, подробности&hellip;
+            <a href="/news/show_v_sentiabre_vyhodit_novaia_manga_ot_iamadzaki_kore">далее</a>
+          </div>
+        </div>
+      </div>
+    
+  </div>
+
+
+    <a href="/news/allnews">Читать все новости</a>
+  </div>
+
+  
+<table class="table table-hover newChapters">
+  <thead>
+  <tr>
+    <th width="515">
+      <h3>
+        Последние обновления каталога
+        <a href="/news/calendar/month" data-toggle="tooltip" title="Обновления по дням"><span class="hidden-xxs">Календарь</span> <i class="fa fa-calendar-check"></i></a>
+        <a href="/rss/index" data-toggle="tooltip" title="RSS"><i class="fa fa-rss-square"></i></a>
+        <a href="/list?sortType=updated" data-toggle="tooltip" title="Последние обновления произведений"><i class="fa fa-clock text-info"></i></a>
+      </h3>
+    </th>
+    <th width="50" class="hidden-xxs">Дата</th>
+  </tr>
+  </thead>
+  <tbody>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/vechno_bessmertnyi/vol1/10" title="Сяо Гун: сэйнэн, сверхъестественное, боевые искусства, боевик, приключения, фэнтези" class="">Вечно бессмертный 1 - 10</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/51/228.jpg' data-title='Сяо Гун: сэйнэн, сверхъестественное, боевые искусства, боевик, приключения, фэнтези' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/vechno_bessmertnyi/vol1/9" title="Сяо Гун: сэйнэн, сверхъестественное, боевые искусства, боевик, приключения, фэнтези" class="">Вечно бессмертный 1 - 9</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/51/228.jpg' data-title='Сяо Гун: сэйнэн, сверхъестественное, боевые искусства, боевик, приключения, фэнтези' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/ia_i_moi_professor/vol1/13" title="романтика, драма, сёдзё" class="">Я и мой профессор 1 - 13 Рисовая каша</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/56/397.jpg' data-title='романтика, драма, сёдзё' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/lukizm/vol1/244" title="Пак Тхэ Чжун: повседневность, драма, сэйнэн, школа, сверхъестественное, сёнэн, боевик, психология, комедия" class="">Лукизм 1 - 244</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/00/89/126.jpg' data-title='Пак Тхэ Чжун: повседневность, драма, сэйнэн, школа, сверхъестественное, сёнэн, боевик, психология, комедия' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/velikii_pobeg_gastera/vol1/4" title="MoldyDraws: научная фантастика, игра, драма, додзинси" class="">Великий побег Гастера Сингл</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/63/884.jpg' data-title='MoldyDraws: научная фантастика, игра, драма, додзинси' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/velikii_pobeg_gastera/vol1/3" title="MoldyDraws: научная фантастика, игра, драма, додзинси" class="">Великий побег Гастера Сингл</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/63/884.jpg' data-title='MoldyDraws: научная фантастика, игра, драма, додзинси' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/velikii_pobeg_gastera/vol1/2" title="MoldyDraws: научная фантастика, игра, драма, додзинси" class="">Великий побег Гастера Сингл</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/63/884.jpg' data-title='MoldyDraws: научная фантастика, игра, драма, додзинси' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/velikii_pobeg_gastera/vol1/1" title="MoldyDraws: научная фантастика, игра, драма, додзинси" class="">Великий побег Гастера Сингл</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/63/884.jpg' data-title='MoldyDraws: научная фантастика, игра, драма, додзинси' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/kakao_79_/vol1/79" title="Аой Юми: повседневность, школа, романтика, сёдзё, комедия" class="">79% какао 1 - 79 Летние ветерок, звук и запах (11)</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/00/68/486.jpg' data-title='Аой Юми: повседневность, школа, романтика, сёдзё, комедия' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/kakao_79_/vol1/78" title="Аой Юми: повседневность, школа, романтика, сёдзё, комедия" class="">79% какао 1 - 78 Летние ветерок, звук и запах (10)</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/00/68/486.jpg' data-title='Аой Юми: повседневность, школа, романтика, сёдзё, комедия' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/kakao_79_/vol1/77" title="Аой Юми: повседневность, школа, романтика, сёдзё, комедия" class="">79% какао 1 - 77 Летние ветерок, звук и запах (9)</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/00/68/486.jpg' data-title='Аой Юми: повседневность, школа, романтика, сёдзё, комедия' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/kakao_79_/vol1/76" title="Аой Юми: повседневность, школа, романтика, сёдзё, комедия" class="">79% какао 1 - 76 Летние ветерок, звук и запах (8)</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/00/68/486.jpg' data-title='Аой Юми: повседневность, школа, романтика, сёдзё, комедия' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/dinner_of_fast_food/vol2/73" title="Ким Керан: повседневность, драма, школа, романтика, комедия" class="">Ужин Кон Бок Хи 2 - 73</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/00/78/705.jpg' data-title='Ким Керан: повседневность, драма, школа, романтика, комедия' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/sorcery_fight/vol17/144" title="Акутами Гэгэ: сверхъестественное, боевик, сёнэн, драма, школа" class="">Магическая битва 17 - 144 То место</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/09/226.jpg' data-title='Акутами Гэгэ: сверхъестественное, боевик, сёнэн, драма, школа' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/my_senpai_is_annoying/vol3/56.5" title="Сиро Манта: романтика, комедия" class="">Мой сэмпай раздражает! 3 Экстра</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/20/318.jpg' data-title='Сиро Манта: романтика, комедия' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/dni_sakamoto/vol1/4525" title="Судзуки Юто: сёнэн, боевик, драма, комедия" class="">Дни Сакамото 1 Экстра Экстра к 1000-й главе Ван Писа</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/57/748.jpg' data-title='Судзуки Юто: сёнэн, боевик, драма, комедия' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/spasi_menia/vol1/44" title="1230: драма, школа, триллер, сёнэн, психология" class="">Спаси меня 1 - 44 Осторожно.</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/22/096.jpg' data-title='1230: драма, школа, триллер, сёнэн, психология' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/spasi_menia/vol1/43" title="1230: драма, школа, триллер, сёнэн, психология" class="">Спаси меня 1 - 43 Конец семестра.</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/22/096.jpg' data-title='1230: драма, школа, триллер, сёнэн, психология' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/pererodivshaiasia_vedma_predskazyvaet_pogibel_/vol3/11" title="романтика, сёдзё, фэнтези" class="">Переродившаяся ведьма предсказывает погибель! 3 - 11 Король драконов огня</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/17/700.jpg' data-title='романтика, сёдзё, фэнтези' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/legenda_o_severnom_klinke/vol1/80" title="драма, боевые искусства, сёнэн, приключения, фэнтези" class="">Легенда о Северном клинке 1 - 80</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/50/670.jpg' data-title='драма, боевые искусства, сёнэн, приключения, фэнтези' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/svadba_vo_imia_mesti/vol1/24" title="драма, романтика, история, сёдзё, комедия, фэнтези" class="">Свадьба во имя мести 1 - 24</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/42/611.jpg' data-title='драма, романтика, история, сёдзё, комедия, фэнтези' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/ptica__ukrytaia_cvetami/vol1/83" title="Бао Чуань Цзю Цзюцзы: драма, школа, романтика, сёдзё, фэнтези" class="">Птица, укрытая цветами 1 - 83 В преддверии соревнования</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/20/388.jpg' data-title='Бао Чуань Цзю Цзюцзы: драма, школа, романтика, сёдзё, фэнтези' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/the_new_gate/vol11/67" title="драма, романтика, боевые искусства, боевик, сёнэн, игра, приключения, комедия, гарем, фэнтези" class="">Новые врата 11 - 67</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/19/201.jpg' data-title='драма, романтика, боевые искусства, боевик, сёнэн, игра, приключения, комедия, гарем, фэнтези' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/nindzia_sleer__kioto___ad_na_zemle/vol4/21" title="боевые искусства, научная фантастика, сёнэн, комедия" class="">Ниндзя Слеер: Киото - ад на земле 4 - 21 Cмерть с Небес Секибахары (5)</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/18/897.jpg' data-title='боевые искусства, научная фантастика, сёнэн, комедия' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        29.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/en_rokhyn/vol1/27" title="драма, романтика, боевые искусства, приключения, гендерная интрига, фэнтези" class="">Ён Рокхын 1 - 27</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/35/485.jpg' data-title='драма, романтика, боевые искусства, приключения, гендерная интрига, фэнтези' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        28.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/en_rokhyn/vol1/28" title="драма, романтика, боевые искусства, приключения, гендерная интрига, фэнтези" class="">Ён Рокхын 1 - 28</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/35/485.jpg' data-title='драма, романтика, боевые искусства, приключения, гендерная интрига, фэнтези' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        28.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/en_rokhyn/vol1/26" title="драма, романтика, боевые искусства, приключения, гендерная интрига, фэнтези" class="">Ён Рокхын 1 - 26</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/35/485.jpg' data-title='драма, романтика, боевые искусства, приключения, гендерная интрига, фэнтези' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        28.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/en_rokhyn/vol1/25" title="драма, романтика, боевые искусства, приключения, гендерная интрига, фэнтези" class="">Ён Рокхын 1 - 25</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/35/485.jpg' data-title='драма, романтика, боевые искусства, приключения, гендерная интрига, фэнтези' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        28.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/en_rokhyn/vol1/24" title="драма, романтика, боевые искусства, приключения, гендерная интрига, фэнтези" class="">Ён Рокхын 1 - 24</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/35/485.jpg' data-title='драма, романтика, боевые искусства, приключения, гендерная интрига, фэнтези' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        28.03
+      </td>
+    </tr>
+  
+    <tr>
+      <td>
+        
+          
+            <a href="/effekt_goreniia/vol1/50" title="Пак Тхэхён: драма, сверхъестественное, научная фантастика, сёнэн, боевик, приключения, фэнтези" class="">Эффект горения 1 - 50</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/35/840.jpg' data-title='Пак Тхэхён: драма, сверхъестественное, научная фантастика, сёнэн, боевик, приключения, фэнтези' data-h='450' data-w='325'></span>
+          
+        
+      </td>
+      <td class="hidden-xxs">
+        28.03
+      </td>
+    </tr>
+  
+  </tbody>
+  <tfoot>
+  <tr>
+    <th colspan="2" style="text-align: center;">
+        <span class="pagination"><span class="currentStep">1</span><a href="/?offset=30" class="step">2</a><a href="/?offset=60" class="step">3</a><a href="/?offset=90" class="step">4</a><a href="/?offset=120" class="step">5</a><span class="step gap">..</span><a href="/?offset=270" class="step">10</a><a href="/?offset=30" class="nextLink"><i class='fa fa-arrow-right'></i></a></span>
+    </th>
+  </tr>
+  </tfoot>
+</table>
+
+
+  
+  <h3>Новые рецензии на мангу
+    <small><a href="/review/list">далее</a></small>
+  </h3>
+
+  <div class="review-tiles row">
+    
+      <div class="col-sm-6 tile" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+        <div class="simple-tile " >
+  <a href="/broshennaia_imperatrica">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/32/035_p.jpg' title='Брошенная императрица' alt='Брошенная императрица' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Брошенная императрица" data-toggle="tooltip">
+      
+      Брошенная императрица
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Брошенная императрица</h5>
+        Будучи гордой дочерью семьи Моник, Аристия была воспитана, чтобы стать следующей императрицей Империи Кастина. Но всё разрушилось с появлением одной таинственной девушки: император отвернулся от неё, а несчастная жизнь Аристии была прервана смертью. Однако появился шанс изменить её судьбу, она переродилась десятилетним ребёнком! Это сон или реальность? Изменит ли она свою судьбу?
+    </div>
+
+  </a>
+</div>
+
+        <meta itemprop="dateCreated" content="2021-03-28"/>
+        <meta itemprop="url" content="https://readmanga.live/review/27028"/>
+        <div class="desc">
+          <div class="author"><a href="https://grouple.co/user/139319" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Tani Shiro</span></a></div>
+          <div class="review-short-main">
+            <div class="description" itemprop="reviewBody">
+  Манга из серии &quot;Начали за здравие, закончили за упокой&quot;. История начинается с неразделенной любви, жестокого и несправедливого отношения к главной героине, и, разумеется, когда все&hellip;<br/>
+  <a href="/review/27028">Читать полностью</a>
+</div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-sm-6 tile" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+        <div class="simple-tile " >
+  <a href="/kaguia_hochet__chtoby_ei_priznalis__genii___voina_liubvi_i_razuma">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/03/399_p.jpg' title='Кагуя хочет, чтобы ей признались: Гении — война любви и разума' alt='Кагуя хочет, чтобы ей признались: Гении — война любви и разума' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Кагуя хочет, чтобы ей признались: Гении — война любви и разума" data-toggle="tooltip">
+      
+      Кагуя хочет, чтобы ей признались: Гении — война любви и разума
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Кагуя хочет, чтобы ей признались: Гении — война любви и разума</h5>
+        <p>Шиномия Кагуя и Широгане Миюки — члены школьного совета невероятно престижной Академии Шучиин, признанные гениями из гениев. Всё время, проведённое вместе, послужило поводом разобраться в чувствах к друг другу, но их гордость не позволит ни одному из них признаться и покориться другому в отношениях! Любовь — это война, это битва с целью заставить другого признаться!</p>
+    </div>
+
+  </a>
+</div>
+
+        <meta itemprop="dateCreated" content="2021-03-28"/>
+        <meta itemprop="url" content="https://readmanga.live/review/27032"/>
+        <div class="desc">
+          <div class="author"><a href="https://grouple.co/user/1930869" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Dead cancer</span></a></div>
+          <div class="review-short-main">
+            <div class="description" itemprop="reviewBody">
+  Данная манга ещё не закончена, однако о ней уже складывается хорошее впечатление и я искренне надеюсь, что автор не сольет конец. История основывается на взаимной любви двух старшеклассников,&hellip;<br/>
+  <a href="/review/27032">Читать полностью</a>
+</div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-sm-6 tile" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+        <div class="simple-tile " >
+  <a href="/evangelion">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/00/27/195_p.jpg' title='Евангелион' alt='Евангелион' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Евангелион" data-toggle="tooltip">
+      
+      Евангелион
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Евангелион</h5>
+        <span style="color: rgb(51, 51, 51); font-family: 'Trebuchet MS', Arial; font-size: 14px; background-color: rgb(255, 255, 255)">&quot;Евангелион&quot; - это история о борьбе человечества с таинственными &quot;Ангелами&quot; - гигантскими инопланетными машинами (или, возможно живыми организмами). Их намерения неочевидны, но их действия могут привести к гибели тысяч людей. И сражаются с ними не военные, а лишь немногие подростки, способные управлять гигантскими боевыми машинами - Евангелионами, единственным оружием, способным противостоять &quot;Ангелам&quot;. Однако битва за Землю - лишь фон, а главное сражение развернется в глубине душ юных пилотов...</span>
+    </div>
+
+  </a>
+</div>
+
+        <meta itemprop="dateCreated" content="2021-03-26"/>
+        <meta itemprop="url" content="https://readmanga.live/review/27019"/>
+        <div class="desc">
+          <div class="author"><a href="https://grouple.co/user/1722124" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Машуня Шанюшка</span></a></div>
+          <div class="review-short-main">
+            <div class="description" itemprop="reviewBody">
+  Евангелион - удивительное произведение. Кто бы что не говорил, как бы не пытался понять его, вынося вердикты и чаще всего клеймя Еву глубокомысленной пустышкой, никого он не оставил&hellip;<br/>
+  <a href="/review/27019">Читать полностью</a>
+</div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-sm-6 tile" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+        <div class="simple-tile " >
+  <a href="/ia_sbejala__priruchiv_tirana">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/61/227_p.jpg' title='Я сбежала, приручив тирана' alt='Я сбежала, приручив тирана' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Я сбежала, приручив тирана" data-toggle="tooltip">
+      
+      Я сбежала, приручив тирана
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Я сбежала, приручив тирана</h5>
+        <div><div style="text-align: justify">Бог дал мне ещё один шанс я возродилась спустя четыреста лет. Поняв, что я вернулась, я решила, что &laquo;никто не должен быть охвачен гордыней&raquo;. Моей целью стало уничтожение страны. Итак, я выросла с гениальным принцем, который жил в подполье и ожидал возможности для возвращения. Он захватил Империю для меня, и я оставила его, чтобы он достиг своей цели.</div><div style="text-align: justify">— Я пришёл, чтобы забрать тебя, Шарлиз Ронан.</div><div style="text-align: justify">Через несколько лет поисков по всему континенту, Дилан, ставший идеальным тираном, нашёл меня.</div><div style="text-align: justify">— Почему ты сбежала?!</div></div>
+    </div>
+
+  </a>
+</div>
+
+        <meta itemprop="dateCreated" content="2021-03-26"/>
+        <meta itemprop="url" content="https://readmanga.live/review/27016"/>
+        <div class="desc">
+          <div class="author"><a href="https://grouple.co/user/111612" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Смертельные Сардины</span></a></div>
+          <div class="review-short-main">
+            <div class="description" itemprop="reviewBody">
+  Знаете, меня очень удивляет, что в данной манхве нет жанра &quot;комедия&quot;, потому что пока читаешь этот абсурд, то ты либо нервно смеешься, либо прикрываешь лицо ладошкой. И это не в позитивном&hellip;<br/>
+  <a href="/review/27016">Читать полностью</a>
+</div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-sm-6 tile" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+        <div class="simple-tile " >
+  <a href="/mag_s_osobymi_obstoiatelstvami_hochet_jit_mirno">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/40/863_p.jpg' title='Маг с особыми обстоятельствами хочет жить мирно' alt='Маг с особыми обстоятельствами хочет жить мирно' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Маг с особыми обстоятельствами хочет жить мирно" data-toggle="tooltip">
+      
+      Маг с особыми обстоятельствами хочет жить мирно
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Маг с особыми обстоятельствами хочет жить мирно</h5>
+        <div style="text-align: justify">В мире, где только у мужчин есть магия, живёт Эко, которая почему-то может использовать магию, хоть она и женщина. Ей приходится скрывать свои способности и переезжать с места на место, пока однажды кузен не предложил ей работу в Министерстве магии. Сфальсифицировав свой пол в документах, Эко отправилась работать в Министерство. На новой работе её ждёт множество странных коллег и забавных случайностей.&nbsp;<br /></div>
+    </div>
+
+  </a>
+</div>
+
+        <meta itemprop="dateCreated" content="2021-03-26"/>
+        <meta itemprop="url" content="https://readmanga.live/review/27013"/>
+        <div class="desc">
+          <div class="author"><a href="https://grouple.co/user/172955" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Аннаэйра <i class='fa fa-star gold-status'></i></span></a></div>
+          <div class="review-short-main">
+            <div class="description" itemprop="reviewBody">
+  Очень своеобразная работа, которая одновременно и довольно притягательная, и... кхм, как бы сказать... в общем, в определенных моментах явно недораскрыта. +) Неплохая концепция мира.&hellip;<br/>
+  <a href="/review/27013">Читать полностью</a>
+</div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-sm-6 tile" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+        <div class="simple-tile " >
+  <a href="/pobeditel_po_jizni">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/63/828_p.jpg' title='Победитель по жизни' alt='Победитель по жизни' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Победитель по жизни" data-toggle="tooltip">
+      
+      Победитель по жизни
+    </div>
+
+    
+    <i class="fa fa-info-circle  long-description"></i>
+    <div class="hidden long-description-holder">
+        <h5>Победитель по жизни</h5>
+        <div style="text-align: justify"><span style="color: rgb(33, 37, 41); font-size: 14px">Мэн Фань был хорошим парнем, но по трагической случайности погиб совсем молодым, так и не успев ничего сделать. Для того чтобы восстановить справедливость, Вселенная отправила его назад за три месяца до гибели, создав для него систему, при которой у него не получится впустую тратить жизнь. Его первым заданием будет получить 100 отказов от девушек.</span><br /></div>
+    </div>
+
+  </a>
+</div>
+
+        <meta itemprop="dateCreated" content="2021-03-26"/>
+        <meta itemprop="url" content="https://readmanga.live/review/27011"/>
+        <div class="desc">
+          <div class="author"><a href="https://grouple.co/user/842036" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Tjupa</span></a></div>
+          <div class="review-short-main">
+            <div class="description" itemprop="reviewBody">
+  Привет! Пишу по первым 15 главам. Надеюсь, перевод продолжат выкладывать, классный тайтл. Для ориентира: последней маньхуа, которая действительно понравилась, была &quot;Групповая беседа&hellip;<br/>
+  <a href="/review/27011">Читать полностью</a>
+</div>
+          </div>
+        </div>
+      </div>
+    
+  </div>
+
+
+  
+  <h3>
+    Новые коллекции <small><a href="/collection">далее</a></small>
+  </h3>
+
+
+<div class="row tiles-row short">
+  
+    <div class="simple-tile " >
+  <a href="/collection/deistviem_vzaimootnoshenii_mejdu_paroi_slujit_rebenok_2">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/56/035_p.jpg' title='Действием взаимоотношений между парой служит ребенок 2' alt='Действием взаимоотношений между парой служит ребенок 2' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Действием взаимоотношений между парой служит ребенок 2" data-toggle="tooltip">
+      
+      Действием взаимоотношений между парой служит ребенок 2
+    </div>
+
+    
+  </a>
+</div>
+  
+    <div class="simple-tile " >
+  <a href="/collection/odinochki_sam_sebe_na_ume">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/62/611_p.jpg' title='Одиночки/Сам себе на уме' alt='Одиночки/Сам себе на уме' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Одиночки/Сам себе на уме" data-toggle="tooltip">
+      
+      Одиночки/Сам себе на уме
+    </div>
+
+    
+  </a>
+</div>
+  
+    <div class="simple-tile " >
+  <a href="/collection/manhva_s_interesnym_siujetom__ne_glupymi_personajami_i_nalichiem_romantiki">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/62/343_p.jpg' title='Манхва с интересным сюжетом, не глупыми персонажами и наличием романтики' alt='Манхва с интересным сюжетом, не глупыми персонажами и наличием романтики' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Манхва с интересным сюжетом, не глупыми персонажами и наличием романтики" data-toggle="tooltip">
+      
+      Манхва с интересным сюжетом, не глупыми персонажами и наличием романтики
+    </div>
+
+    
+  </a>
+</div>
+  
+    <div class="simple-tile " >
+  <a href="/collection/bolshe_ne_liudi">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/61/528_p.jpg' title='Больше не люди' alt='Больше не люди' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Больше не люди" data-toggle="tooltip">
+      
+      Больше не люди
+    </div>
+
+    
+  </a>
+</div>
+  
+    <div class="simple-tile " >
+  <a href="/collection/manga_i_komiksy_izdatelskoi_gruppy_komiks_pablisher">
+    
+      <img class='lazy img-responsive' src='' data-original='https://static.readmanga.live/uploads/pics/01/61/869_p.jpg' title='Манга и комиксы издательской группы Комикс Паблишер' alt='Манга и комиксы издательской группы Комикс Паблишер' width='130' height='180'/>
+    
+
+    <div class="strong title" title="Манга и комиксы издательской группы Комикс Паблишер" data-toggle="tooltip">
+      
+      Манга и комиксы издательской группы Комикс Паблишер
+    </div>
+
+    
+  </a>
+</div>
+  
+</div>
+
+  <font size="4">
+Хотите помочь нашим сайтам? <a href="https://grouple.co/forum/posts/list/71833.page">Обращайтесь</a>&nbsp;или <a href="https://grouple.co/forum/posts/list/56423.page">будьте редактором журнала</a>!</font>&nbsp;<div><font size="4">Хотите переводить мангу? Вас <a href="https://grouple.co/forum/forums/show/16.page"> ждут команды переводчиков</a>.&nbsp;</font></div><div><font size="4"><a href="https://grouple.co/forum/forums/show/17.page">Инструкции по переводу манги</a></font>
+</div>
+
+  <h1>Читай и обсуждай мангу онлайн!</h1>
+  <div>
+    <p style="text-align: justify;"><span style="font-size: larger;"><span style="font-family: Arial;"><em><strong>Манга</strong> - это японские комиксы. Манга пользуется огромной популярностью во всем мире, и читают ее практически в каждой стране.</em></span></span></p>
+<p style="text-align: justify;"><span style="font-size: larger; ">Мы создали ридмангу для таких же любителей манги, как и мы. Здесь можно читать мангу онлайн, не скачивая. При этом можно выбрать наиболее приятное оформление страниц и листать их при помощи кнопок курсора клавиатуры или мышкой. На нашем сайте размещена <em>самая большая коллекция манги</em> в Рунете</span></p>
+<p style="text-align: justify;"><span style="font-size: larger; ">Манга для взрослых, яой размещена на отдельном сайте </span><span style="font-size: larger; ">MintManga</span><span style="font-size: larger; ">. Самиздат и </span><span style="font-size: larger; ">журналы</span><span style="font-size: larger; "> о манге размещены на </span><span style="font-size: larger; ">Selfmanga</span><span style="font-size: larger; ">. Смотри аниме на </span><span style="font-size: larger; ">FindAnime</span><span style="font-size: larger; "> онлайн, а дораму и &nbsp;лайв-экшн (live-action) на </span><span style="font-size: larger; ">DoramaTv</span><span style="font-size: larger; ">&nbsp;</span></p>
+<p><b>Авторами переводов манги являемся не мы, адреса проектов по переводу указаны в описании манги.</b></p>
+    <div class="clearfix"> </div>
+  </div>
+
+
+      <script>
+        myLazyLoad.update();
+      </script>
+    </div>
+  
+  
+    <div class="rightContent">
+      
+
+  
+  <a href="/god_of_martial_arts" title="Бог боевых искусств" class="main-page-cower">
+    <img alt="Бог боевых искусств" src="" data-original="https://static.readmanga.live/uploads/pics/01/14/547.jpg" align="right" class='lazy'>
+  </a>
+
+
+  <div class="rightBlock">
+    <h5>
+      Каждый может <a href="/internal/edit/index">добавить мангу</a>, <a href="/internal/editorPerson/index">персону</a> в каталог!
+    </h5>
+  </div>
+
+  <div class="rightBlock">
+  <h5><a href="/list" class="strong">Популярная сейчас манга</a></h5>
+  <ol class='mangaList'><li><a href="/podniatie_urovnia_v_odinochku" target="" title="драма, сёнэн, игра, приключения, фэнтези" class="manga-link">Поднятие уровня в одиночку</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/41/131.jpg' data-title='драма, сёнэн, игра, приключения, фэнтези' data-h='450' data-w='325'></span></li><li><a href="/mushoku_tensei__if_i_get_to_a_parallel_universe_i_ll_bring" target="" title="драма, этти, сэйнэн, романтика, боевик, приключения, комедия, гарем, гендерная интрига, фэнтези" class="manga-link">Реинкарнация безработного ~История о приключениях в другом мире~</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/00/66/752.jpg' data-title='драма, этти, сэйнэн, романтика, боевик, приключения, комедия, гарем, гендерная интрига, фэнтези' data-h='450' data-w='325'></span></li><li><a href="/nachalo_posle_konca" target="" title="приключения, фэнтези" class="manga-link">Начало после конца</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/49/514.jpg' data-title='приключения, фэнтези' data-h='450' data-w='325'></span></li><li><a href="/you_re_here" target="" title="Ди. Цзюнь: романтика, сёнэн-ай, школа" class="manga-link">Ты здесь</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/37/246.jpg' data-title='Ди. Цзюнь: романтика, сёнэн-ай, школа' data-h='450' data-w='325'></span></li><li><a href="/odnajdy_ia_stala_princessoi__A1ec118" target="" title="драма, романтика, сёдзё, гарем, фэнтези" class="manga-link">Однажды я стала принцессой</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/47/695.jpg' data-title='драма, романтика, сёдзё, гарем, фэнтези' data-h='450' data-w='325'></span></li><li><a href="/klinok__rassekaiuchii_demonov" target="" title="Готогэ Коёхару: драма, сверхъестественное, боевые искусства, история, сёнэн, боевик, трагедия, приключения, фэнтези" class="manga-link">Клинок, рассекающий демонов</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/00/80/809.jpg' data-title='Готогэ Коёхару: драма, сверхъестественное, боевые искусства, история, сёнэн, боевик, трагедия, приключения, фэнтези' data-h='450' data-w='325'></span></li><li><a href="/horimiia" target="" title="романтика, повседневность, сёнэн, сёдзё, комедия, школа" class="manga-link">Хоримия</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/00/21/627.jpg' data-title='романтика, повседневность, сёнэн, сёдзё, комедия, школа' data-h='450' data-w='325'></span></li><li><a href="/o_moem_pererojdenii_v_sliz" target="" title="драма, героическое фэнтези, романтика, боевик, сёнэн, игра, приключения, комедия, фэнтези, гендерная интрига" class="manga-link">О моём перерождении в слизь</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/00/969.jpg' data-title='драма, героическое фэнтези, романтика, боевик, сёнэн, игра, приключения, комедия, фэнтези, гендерная интрига' data-h='450' data-w='325'></span></li><li><a href="/tales_of_demons_and_gods" target="" title="героическое фэнтези, романтика, боевые искусства, сёнэн, боевик, приключения, гарем, комедия, фэнтези" class="manga-link">Сказания о демонах и богах</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/28/772.jpg' data-title='героическое фэнтези, романтика, боевые искусства, сёнэн, боевик, приключения, гарем, комедия, фэнтези' data-h='450' data-w='325'></span></li><li><a href="/nevesta_gercoga_po_kontraktu" target="" title="драма, романтика, сверхъестественное, детектив, сёдзё" class="manga-link">Невеста герцога по контракту</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/15/801.jpg' data-title='драма, романтика, сверхъестественное, детектив, сёдзё' data-h='450' data-w='325'></span></li><li><a href="/itog" target="" title="Харибо: сёнэн-ай, драма, школа, романтика, сверхъестественное, психология" class="manga-link">Итог</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/17/949.jpg' data-title='Харибо: сёнэн-ай, драма, школа, романтика, сверхъестественное, психология' data-h='450' data-w='325'></span></li><li><a href="/boruto__A112d3e7" target="" title="драма, боевые искусства, боевик, сёнэн, приключения, комедия, фэнтези" class="manga-link">Боруто</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/00/66/271.jpg' data-title='драма, боевые искусства, боевик, сёнэн, приключения, комедия, фэнтези' data-h='450' data-w='325'></span></li><li><a href="/the_promised_neverland__A1b7de4" target="" title="драма, ужасы, сверхъестественное, детектив, сёнэн, боевик, психология" class="manga-link">Обещанный Неверленд</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/00/580.jpg' data-title='драма, ужасы, сверхъестественное, детектив, сёнэн, боевик, психология' data-h='450' data-w='325'></span></li><li><a href="/19_days___one_day" target="" title="Олд Сянь, Студия Мосспака: повседневность, сёнэн-ай, драма, школа, романтика, комедия" class="manga-link">19 дней — Однажды</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/00/79/477.jpg' data-title='Олд Сянь, Студия Мосспака: повседневность, сёнэн-ай, драма, школа, романтика, комедия' data-h='450' data-w='325'></span></li><li><a href="/beregis_etoi_chertovki_" target="" title="драма, романтика, история, сёдзё, гарем, комедия, фэнтези" class="manga-link">Берегись этой чертовки!</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/45/122.jpg' data-title='драма, романтика, история, сёдзё, гарем, комедия, фэнтези' data-h='450' data-w='325'></span></li></ol>
+</div>
+
+
+  <h5><a href="/collection">Коллекции</a></h5>
+
+  <div class="rightBlock social-share">
+  <h5>Поделиться</h5>
+
+  <div class="social-likes social-likes_light"  data-counters="no">
+    <div class="vkontakte" title="Поделиться ссылкой во Вконтакте"></div>
+    <div class="twitter"  title="Поделиться ссылкой в Твиттере"></div>
+
+    <div class="facebook" title="Поделиться ссылкой на Фейсбуке"></div>
+    <div class="mailru" title="Поделиться ссылкой в Моём мире"></div>
+
+    <div class="odnoklassniki" title="Поделиться ссылкой в Одноклассниках"></div>
+
+    
+    <div class="pinterest" title="Поделиться картинкой на Пинтересте" data-media=""></div>
+    
+  </div>
+</div>
+  <div class="rightBlock">
+  <h5>Подписаться на новости:
+  
+    <noindex>
+      <a rel="nofollow" class="non-hover" href="https://feeds.feedburner.com/readmangarss"><img  src="https://feeds.feedburner.com/~fc/readmangarss?bg=FFD050&amp;fg=8B2F20&amp;anim=1" height="26" width="88" alt="Получать новости по RSS" /></a>
+    </noindex></h5>
+
+  <form action="https://feedburner.google.com/fb/a/mailverify" id="subscribeform" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=readmangarss', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" style="margin-top: 5px">
+    <input type="hidden" value="readmangarss" name="uri"/>
+    <input type="hidden" name="loc" value="ru_RU"/>
+    <div class="input-group">
+      <input name="email" type="text" value="" maxlength="100" class="form-control" title="Ваш email адрес" placeholder="Ваш email адрес"/>
+      <span class="input-group-btn">
+        <button class="btn btn-primary" type="submit">Подписаться</button>
+      </span>
+    </div>
+
+
+  </form>
+  
+  
+
+</div>
+
+  <br/>
+
+  <a href="/internal/random" class="btn btn-info btn-block">Открыть случайную мангу</a>
+  <br/>
+  
+    
+    
+    <div class="rightBlock">
+        <h5>Сегодня <a href="/list/birthdays">день рождения <i class="far fa-birthday-cake text-danger"></i></a></h5>
+        <ul>
+            
+                <li><a href="/list/person/kuroda_yosuke" class="person-link">Курода Ёсукэ</a></li>
+            
+                <li><a href="/list/person/kwon_gyo_jung" class="person-link">Квон Гёджон</a></li>
+            
+                <li><a href="/list/person/helix_helix_29_90_1990" class="person-link">Helix-Helix</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/00/66/797.jpg' data-title='Переводчик Helix-Helix 29.03.1990' data-h='450' data-w='325'></span></li>
+            
+                <li><a href="/list/person/lex_gallean" class="person-link">Lex Gallean</a></li>
+            
+                <li><a href="/list/person/xika_mika" class="person-link">Хика Мика</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/50/018.jpg' data-title='Переводчик Хика Мика 29.03.2005' data-h='450' data-w='325'></span></li>
+            
+                <li><a href="/list/person/sweet_translate" class="person-link">Сладкий перевод</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/23/232.jpg' data-title='Переводчик Сладкий перевод 29.03.2006' data-h='450' data-w='325'></span></li>
+            
+                <li><a href="/list/person/pingviny_na_ldine" class="person-link">Пингвины на льдине</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/35/303.jpg' data-title='Переводчик Пингвины на льдине 29.03.2017' data-h='450' data-w='325'></span></li>
+            
+                <li><a href="/list/person/rescue_team" class="person-link">Rescue Team</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/04/513.jpg' data-title='Переводчик Rescue Team 29.03.2018' data-h='450' data-w='325'></span></li>
+            
+                <li><a href="/list/person/garden" class="person-link">GARDEN</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/52/833.jpg' data-title='Переводчик GARDEN 29.03.2020' data-h='450' data-w='325'></span></li>
+            
+            
+        </ul>
+    </div>
+
+
+  <div class="co_ba right_ba">
+  <noindex>
+    
+      
+
+
+<script>
+  decodeBaBlocks(
+    'PCEtLSBZYW5kZXguUlRCIFItQS01OTUzNDAtNiAtLT4NCjxkaXYgaWQ9InlhbmRleF9ydGJfUi1BLTU5NTM0MC02Ij48L2Rpdj4NCg==',
+    'PCEtLSBZYW5kZXguUlRCIFItQS02NTMyODAtNCAtLT4NCjxkaXYgaWQ9InlhbmRleF9ydGJfUi1BLTY1MzI4MC00Ij48L2Rpdj4NCg=='
+  );
+</script>
+    
+  </noindex>
+</div>
+
+  
+
+  <div class="rightBlock">
+    <h5>Последние комментарии</h5>
+    <div class="lastTwitts">
+      
+        
+        
+        <div class="twitt">
+          <a href="https://grouple.co/user/214442">DontTrustIdiot</a>:
+          <a href="/v_etot_raz_ia_tochno_budu_schastliva_/vol1/4#comm_27402397&amp;page=11" title="" class="">&quot;Здесь с вами? &quot;
+Да нет тут никого.</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/26/069.jpg' data-title='' data-h='450' data-w='325'></span>
+        </div>
+      
+        
+        
+        <div class="twitt">
+          <a href="https://grouple.co/user/876417">FaaSol&#39;</a>:
+          <a href="/ia_stala_gornichnoi_gercoga/vol2/79#comm_27402396&amp;page=4" title="" class="">Ну тут у Диего, мне кажется, не влюбленность, а просто соревнование с Леандро. Полагаю, в оригинале, Диего был с Элеонорой, просто потому, что она нравилась тогда Леандро.</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/29/660.jpg' data-title='' data-h='450' data-w='325'></span>
+        </div>
+      
+        
+        
+        <div class="twitt">
+          <a href="https://grouple.co/user/1782428">Мелкий бог Годвилля</a>:
+          <a href="/ia_stal_grafskim_ubliudkom/vol1/28#comm_27402395&amp;page=0" title="" class="">@Зення Чем бродить друзьям по белу све-ету...</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/53/909.jpg' data-title='' data-h='450' data-w='325'></span>
+        </div>
+      
+        
+        
+        <div class="twitt">
+          <a href="https://grouple.co/user/205783">Deadmen</a>:
+          <a href="/nindzia_sleer__kioto___ad_na_zemle/vol1/1#comm_27402394&amp;page=14" title="" class="">Это первая манга, где автор показывает как проходит его &quot;путь&quot; до журнала</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/18/897.jpg' data-title='' data-h='450' data-w='325'></span>
+        </div>
+      
+        
+        
+        <div class="twitt">
+          <a href="https://grouple.co/user/455057">Frostanon</a>:
+          <a href="/sorcery_fight/vol17/144#comm_27402393&amp;page=18" title="" class="">Ваше очко уходит в зрительный зал!</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/09/226.jpg' data-title='' data-h='450' data-w='325'></span>
+        </div>
+      
+        
+        
+        <div class="twitt">
+          <a href="https://grouple.co/user/1846093">starcrusader</a>:
+          <a href="/50_receptov_chaia_ot_gercogini/vol1/10#comm_27402392&amp;page=3" title="" class="">Сомневаюсь, что много кто смог увидеть там женщину.</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/28/355.jpg' data-title='' data-h='450' data-w='325'></span>
+        </div>
+      
+        
+        
+        <div class="twitt">
+          <a href="https://grouple.co/user/1915855">NightEye</a>:
+          <a href="/sorcery_fight/vol17/144#comm_27402391&amp;page=18" title="" class="">Немного не так я себе его представлял...</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/09/226.jpg' data-title='' data-h='450' data-w='325'></span>
+        </div>
+      
+        
+        
+        <div class="twitt">
+          <a href="https://grouple.co/user/1707052">Жру в 3 ночи читая мангу</a>:
+          <a href="/byvshaia_devushka_velikogo_voitelia/vol1/11#comm_27402390&amp;page=2" title="" class="">Когда очкарик снял очки:</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/50/705.jpg' data-title='' data-h='450' data-w='325'></span>
+        </div>
+      
+        
+        
+        <div class="twitt">
+          <a href="https://grouple.co/user/253932">Nikolai56</a>:
+          <a href="/my_hero_academia__A1be6f8/vol31/307#comm_27402389&amp;page=8" title="" class="">О отбивная! Сейчас придёт молоток и будем готовить</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/02/610.jpg' data-title='' data-h='450' data-w='325'></span>
+        </div>
+      
+        
+        
+        <div class="twitt">
+          <a href="https://grouple.co/user/1365198">Aseliniya Asako</a>:
+          <a href="/genshin_impact/vol1/1#comm_27402388&amp;page=18" title="" class=" gold-shadow-text">Нет)) я тоже с корейским играю на втором акке) на первом японская озвучка</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/28/250.jpg' data-title='' data-h='450' data-w='325'></span>
+        </div>
+      
+        
+        
+        <div class="twitt">
+          <a href="https://grouple.co/user/1514257">Kobaner</a>:
+          <a href="/princessa_sudmedekspert/vol1/28#comm_27402387&amp;page=1" title="" class="">Отдай шекели.</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/23/402.jpg' data-title='' data-h='450' data-w='325'></span>
+        </div>
+      
+        
+        
+        <div class="twitt">
+          <a href="https://grouple.co/user/103325">MeLira</a>:
+          <a href="/zlodeika_hochet_vyiti_zamuj_za_prostoliudina_/vol3/12#comm_27402386&amp;page=44" title="" class="">Вилка... 2 или 3 Вонгола... Один удар- четыре дырки... Думаю после этой охоты милая маленькая девочка не сможет есть мясо и без страха смотреть и дотрагиваться до вилок..</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/24/263.jpg' data-title='' data-h='450' data-w='325'></span>
+        </div>
+      
+        
+        
+        <div class="twitt">
+          <a href="https://grouple.co/user/544109">ch0c0late_puma</a>:
+          <a href="/prirojdennyi_naemnik/vol1/12#comm_27402385&amp;page=0" title="" class="">скорешились!  :D</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/57/641.jpg' data-title='' data-h='450' data-w='325'></span>
+        </div>
+      
+        
+        
+        <div class="twitt">
+          <a href="https://grouple.co/user/140350">JackMCrazyFish</a>:
+          <a href="/my_hero_academia__A1be6f8/vol31/307#comm_27402384&amp;page=16" title="" class="">Какой реванш? Это статист, что бы показать lvlup Деку</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/02/610.jpg' data-title='' data-h='450' data-w='325'></span>
+        </div>
+      
+        
+        
+        <div class="twitt">
+          <a href="https://grouple.co/user/1569944">Princess_of_cakes</a>:
+          <a href="/izumrudnaia_korona_jizni/vol1/50#comm_27402383&amp;page=1" title="" class="">ребят, я вот сколько глав последних читаю, всё не могу вспомнить кто эта красноволосенькая девица, ну вот серьёзно, вообще никак, помогите, пожалуйста ( перечитывать в планах не скоро, а узнать хочется )</a><span class='screenshot' rel='https://static.readmanga.live/uploads/pics/01/56/707.jpg' data-title='' data-h='450' data-w='325'></span>
+        </div>
+      
+    </div>
+  </div>
+
+
+
+  <div class="rightBlock">
+    <h5>Манга по жанрам</h5>
+    <ul>
+  
+  
+    <li class=""><a href="/list/genre/art" class="element-link">арт</a></li>
+  
+    <li class=""><a href="/list/genre/action" class="element-link">боевик</a></li>
+  
+    <li class=""><a href="/list/genre/martial_arts" class="element-link">боевые искусства</a></li>
+  
+    <li class=""><a href="/list/genre/vampires" class="element-link">вампиры</a></li>
+  
+    <li class=""><a href="/list/genre/harem" class="element-link">гарем</a></li>
+  
+    <li class=""><a href="/list/genre/gender_intriga" class="element-link">гендерная интрига</a></li>
+  
+    <li class=""><a href="/list/genre/heroic_fantasy" class="element-link">героическое фэнтези</a></li>
+  
+    <li class=""><a href="/list/genre/detective" class="element-link">детектив</a></li>
+  
+    <li class=""><a href="/list/genre/josei" class="element-link">дзёсэй</a></li>
+  
+    <li class=""><a href="/list/genre/doujinshi" class="element-link">додзинси</a></li>
+  
+    <li class=""><a href="/list/genre/drama" class="element-link">драма</a></li>
+  
+    <li class=""><a href="/list/genre/game" class="element-link">игра</a></li>
+  
+    <li class=""><a href="/list/genre/historical" class="element-link">история</a></li>
+  
+    <li class=""><a href="/list/genre/cyberpunk" class="element-link">киберпанк</a></li>
+  
+    <li class=""><a href="/list/genre/codomo" class="element-link">кодомо</a></li>
+  
+    <li class=""><a href="/list/genre/comedy" class="element-link">комедия</a></li>
+  
+    <li class=""><a href="/list/genre/maho_shoujo" class="element-link">махо-сёдзё</a></li>
+  
+    <li class=""><a href="/list/genre/mecha" class="element-link">меха</a></li>
+  
+    <li class=""><a href="/list/genre/sci_fi" class="element-link">научная фантастика</a></li>
+  
+    <li class=""><a href="/list/genre/natural" class="element-link">повседневность</a></li>
+  
+    <li class=""><a href="/list/genre/postapocalypse" class="element-link">постапокалиптика</a></li>
+  
+    <li class=""><a href="/list/genre/adventure" class="element-link">приключения</a></li>
+  
+    <li class=""><a href="/list/genre/psychological" class="element-link">психология</a></li>
+  
+    <li class=""><a href="/list/genre/romance" class="element-link">романтика</a></li>
+  
+    <li class=""><a href="/list/genre/samurai" class="element-link">самурайский боевик</a></li>
+  
+    <li class=""><a href="/list/genre/supernatural" class="element-link">сверхъестественное</a></li>
+  
+    <li class=""><a href="/list/genre/shoujo" class="element-link">сёдзё</a></li>
+  
+    <li class=""><a href="/list/genre/shoujo_ai" class="element-link">сёдзё-ай</a></li>
+  
+    <li class=""><a href="/list/genre/shounen" class="element-link">сёнэн</a></li>
+  
+    <li class=""><a href="/list/genre/shounen_ai" class="element-link">сёнэн-ай</a></li>
+  
+    <li class=""><a href="/list/genre/sports" class="element-link">спорт</a></li>
+  
+    <li class=""><a href="/list/genre/seinen" class="element-link">сэйнэн</a></li>
+  
+    <li class=""><a href="/list/genre/tragedy" class="element-link">трагедия</a></li>
+  
+    <li class=""><a href="/list/genre/thriller" class="element-link">триллер</a></li>
+  
+    <li class=""><a href="/list/genre/horror" class="element-link">ужасы</a></li>
+  
+    <li class=""><a href="/list/genre/fantasy" class="element-link">фэнтези</a></li>
+  
+    <li class=""><a href="/list/genre/school" class="element-link">школа</a></li>
+  
+    <li class=""><a href="/list/genre/ecchi" class="element-link">этти</a></li>
+  
+    <li class=""><a href="/list/genre/yuri" class="element-link">юри</a></li>
+  
+</ul>
+
+  </div>
+  
+    <div class="rightBlock">
+      <h5>Манга по категориям</h5>
+      <ul>
+  
+  
+    <li class=""><a href="/list/category/yonkoma" class="element-link">Ёнкома</a></li>
+  
+    <li class=""><a href="/list/category/comix" class="element-link">Комикс</a></li>
+  
+    <li class=""><a href="/list/category/manhwa" class="element-link">Манхва</a></li>
+  
+    <li class=""><a href="/list/category/manhua" class="element-link">Маньхуа</a></li>
+  
+    <li class=""><a href="/list/category/light_novel" class="element-link">Ранобэ</a></li>
+  
+</ul>
+
+    </div>
+  
+
+  
+<div class="rightBlock">
+  <h5>У нас сейчас</h5>
+  <ul>
+    
+    
+    
+    
+    <li>комментов - <b>много</b></li>
+    <li><a href="/review/list">рецензий</a> - <b>6060</b></li>
+    <li><a href="/quote">цитат</a> - <b>8201</b></li>
+    
+      <li><a href="/collection">коллекций</a> - <b>497</b></li>
+    
+  </ul>
+</div>
+
+
+  <div class="rightBlock">
+  <h5>Добавлено за все время</h5>
+  <ul>
+    
+      <li><a href="https://grouple.co/user/3">South Wind <i class='fa fa-star gold-status'></i></a></li>
+    
+      <li><a href="https://grouple.co/user/1566">dietrich23 <i class='fa fa-star gold-status'></i></a></li>
+    
+      <li><a href="https://grouple.co/user/331150">##### <i class='fa fa-star gold-status'></i></a></li>
+    
+      <li><a href="https://grouple.co/user/6030" data-toggle="tooltip" data-placement="bottom" title="Модератор">Регина <i class='fa fa-star moder-status'></i></a></li>
+    
+      <li><a href="https://grouple.co/user/26230">Куран Канамэ <i class='fa fa-star gold-status'></i></a></li>
+    
+  </ul>
+</div>
+<div class="rightBlock">
+  <h5>Добавлено за три месяца</h5>
+  <ul>
+    
+      <li><a href="https://grouple.co/user/331150">##### <i class='fa fa-star gold-status'></i></a></li>
+    
+      <li><a href="https://grouple.co/user/617013">LONG (龙) <i class='fa fa-star gold-status'></i></a></li>
+    
+      <li><a href="https://grouple.co/user/574859">RyuketsuSora <i class='fa fa-star gold-status'></i></a></li>
+    
+      <li><a href="https://grouple.co/user/40967">Nekonomi <i class='fa fa-star gold-status'></i></a></li>
+    
+      <li><a href="https://grouple.co/user/886896">Trouble_Trouble <i class='fa fa-star gold-status'></i></a></li>
+    
+  </ul>
+</div>
+
+  
+    <div class="rightBlock">
+      <h5>Горячие новинки <a href="https://librebook.me" target="_top">LibreBook</a></h5>
+      <ol class='mangaList'>
+        
+          <li>
+            <a href="https://librebook.me/magistr_diavolskogo_kulta" target="_blank" hideTags="true" rel="noopener">Магистр дьявольского культа</a><span class='screenshot' rel='https://static.librebook.me/uploads/pics/02/44/436.jpg' data-title='The Grandmaster of Demonic Cultivation' data-h='450' data-w='325'></span>
+          </li>
+        
+          <li>
+            <a href="https://librebook.me/imperatrica_snova_vyhodit_zamuj" target="_blank" hideTags="true" rel="noopener">Императрица снова выходит замуж</a><span class='screenshot' rel='https://static.librebook.me/uploads/pics/02/45/248.jpg' data-title='Remarried Empress' data-h='450' data-w='325'></span>
+          </li>
+        
+          <li>
+            <a href="https://librebook.me/vinoven" target="_blank" hideTags="true" rel="noopener">Виновен</a><span class='screenshot' rel='https://static.librebook.me/uploads/pics/02/44/894.jpg' data-title='Reverse' data-h='450' data-w='325'></span>
+          </li>
+        
+          <li>
+            <a href="https://librebook.me/finalom_zlodeiki_mojet_byt_tolko_smert" target="_blank" hideTags="true" rel="noopener">Финалом Злодейки может быть только смерть</a><span class='screenshot' rel='https://static.librebook.me/uploads/pics/02/45/267.jpg' data-title='The Villainess Has Only One Ending' data-h='450' data-w='325'></span>
+          </li>
+        
+          <li>
+            <a href="https://librebook.me/adel" target="_blank" hideTags="true" rel="noopener">Адель</a><span class='screenshot' rel='https://static.librebook.me/uploads/pics/02/44/599.jpg' data-title='Adèle' data-h='450' data-w='325'></span>
+          </li>
+        
+          <li>
+            <a href="https://librebook.me/nizkourovnevyi_personaj_tomodzaki_kun" target="_blank" hideTags="true" rel="noopener">Низкоуровневый персонаж Томодзаки-кун</a><span class='screenshot' rel='https://static.librebook.me/uploads/pics/02/44/346.jpg' data-title='Bottom Tier Character Tomozaki' data-h='450' data-w='325'></span>
+          </li>
+        
+          <li>
+            <a href="https://librebook.me/beregis_etih_bratev_" target="_blank" hideTags="true" rel="noopener">Берегись этих братьев!</a><span class='screenshot' rel='https://static.librebook.me/uploads/pics/02/45/019.jpg' data-title='Beware of the Brothers!' data-h='450' data-w='325'></span>
+          </li>
+        
+      </ol>
+    </div>
+  
+    <div class="rightBlock">
+      <h5>Горячие новинки <a href="https://selfmanga.live" target="_top">SelfManga</a></h5>
+      <ol class='mangaList'>
+        
+          <li>
+            <a href="https://selfmanga.live/venec_iz_podsnejnikov" target="_blank" hideTags="true" rel="noopener">Венец из подснежников</a><span class='screenshot' rel='https://static.selfmanga.live/uploads/pics/00/34/113.jpg' data-title='Snowdrops crown' data-h='450' data-w='325'></span>
+          </li>
+        
+          <li>
+            <a href="https://selfmanga.live/strana_kukol" target="_blank" hideTags="true" rel="noopener">Страна кукол</a><span class='screenshot' rel='https://static.selfmanga.live/uploads/pics/00/34/237.jpg' data-title='Country of the dolls' data-h='450' data-w='325'></span>
+          </li>
+        
+          <li>
+            <a href="https://selfmanga.live/ia___aveira" target="_blank" hideTags="true" rel="noopener">Я — Авеира</a><span class='screenshot' rel='https://static.selfmanga.live/uploads/pics/00/34/365.jpg' data-title='I am Aveira' data-h='450' data-w='325'></span>
+          </li>
+        
+          <li>
+            <a href="https://selfmanga.live/poteriannyi_v_naga_arde" target="_blank" hideTags="true" rel="noopener">Потерянный в Нага-Арде</a><span class='screenshot' rel='https://static.selfmanga.live/uploads/pics/00/34/379.jpg' data-title='Lost in Naga-Ard' data-h='450' data-w='325'></span>
+          </li>
+        
+          <li>
+            <a href="https://selfmanga.live/ekzorcist" target="_blank" hideTags="true" rel="noopener">Экзорцист</a><span class='screenshot' rel='https://static.selfmanga.live/uploads/pics/00/34/216.jpg' data-title='Exorcist' data-h='450' data-w='325'></span>
+          </li>
+        
+          <li>
+            <a href="https://selfmanga.live/kuda_ischezaiut_mechty" target="_blank" hideTags="true" rel="noopener">Куда исчезают мечты</a><span class='screenshot' rel='https://static.selfmanga.live/uploads/pics/00/34/104.jpg' data-title='where dreams disappear' data-h='450' data-w='325'></span>
+          </li>
+        
+          <li>
+            <a href="https://selfmanga.live/zatochenie__skaz_o_beshenom_pse" target="_blank" hideTags="true" rel="noopener">Заточение: Сказ о бешеном псе</a><span class='screenshot' rel='https://static.selfmanga.live/uploads/pics/00/34/240.jpg' data-title='Captivity: Tale of a Mad Dog' data-h='450' data-w='325'></span>
+          </li>
+        
+      </ol>
+    </div>
+  
+    <div class="rightBlock">
+      <h5>Горячие новинки <a href="https://selflib.me" target="_top">SelfLib</a></h5>
+      <ol class='mangaList'>
+        
+          <li>
+            <a href="https://selflib.me/zapiski_rashititelia_grobnic" target="_blank" hideTags="true" rel="noopener">Записки расхитителя гробниц</a><span class='screenshot' rel='https://static.selflib.me/uploads/pics/01/80/981.jpg' data-title='Daomu Biji' data-h='450' data-w='325'></span>
+          </li>
+        
+          <li>
+            <a href="https://selflib.me/test_rozencveiga" target="_blank" hideTags="true" rel="noopener">Тест Розенцвейга</a><span class='screenshot' rel='https://static.selflib.me/uploads/pics/01/80/976.jpg' data-title='The Rosenzweig Test' data-h='450' data-w='325'></span>
+          </li>
+        
+          <li>
+            <a href="https://selflib.me/poezd_prikliuchenii_i_ispytanii" target="_blank" hideTags="true" rel="noopener">Поезд приключений и испытаний</a><span class='screenshot' rel='https://static.selflib.me/uploads/pics/01/80/972.jpg' data-title='The last train' data-h='450' data-w='325'></span>
+          </li>
+        
+          <li>
+            <a href="https://selflib.me/delfinium" target="_blank" hideTags="true" rel="noopener">Дельфиниум</a><span class='screenshot' rel='https://static.selflib.me/uploads/pics/01/81/005.jpg' data-title='Delphinium' data-h='450' data-w='325'></span>
+          </li>
+        
+          <li>
+            <a href="https://selflib.me/dnevnik_evy" target="_blank" hideTags="true" rel="noopener">Дневник Евы</a><span class='screenshot' rel='https://static.selflib.me/uploads/pics/01/81/014.jpg' data-title='Another story of Eve' data-h='450' data-w='325'></span>
+          </li>
+        
+          <li>
+            <a href="https://selflib.me/iskajennye" target="_blank" hideTags="true" rel="noopener">Искажённые</a><span class='screenshot' rel='https://static.selflib.me/uploads/pics/01/80/953.jpg' data-title='Distorted' data-h='450' data-w='325'></span>
+          </li>
+        
+      </ol>
+    </div>
+  
+
+  <h4><a href="/list/translators/sort_rate">Лучшие переводчики</a></h4>
+
+  <h4><a href="/list/deserted">Нужна Ваша помощь!</a></h4>
+
+  
+
+
+<script>
+  decodeBaBlocks(
+    'PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KICAgIChmdW5jdGlvbih3LCBkLCBuLCBzLCB0KSB7DQogICAgICAgIHdbbl0gPSB3W25dIHx8IFtdOw0KICAgICAgICB3W25dLnB1c2goZnVuY3Rpb24oKSB7DQogICAgICAgICAgICBZYS5Db250ZXh0LkFkdk1hbmFnZXIucmVuZGVyKHsNCiAgICAgICAgICAgICAgICBibG9ja0lkOiAiUi1BLTU5NTM0MC02IiwNCiAgICAgICAgICAgICAgICByZW5kZXJUbzogInlhbmRleF9ydGJfUi1BLTU5NTM0MC02IiwNCiAgICAgICAgICAgICAgICBhc3luYzogdHJ1ZQ0KICAgICAgICAgICAgfSk7DQogICAgICAgIH0pOw0KICAgICAgICB0ID0gZC5nZXRFbGVtZW50c0J5VGFnTmFtZSgic2NyaXB0IilbMF07DQogICAgICAgIHMgPSBkLmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpOw0KICAgICAgICBzLnR5cGUgPSAidGV4dC9qYXZhc2NyaXB0IjsNCiAgICAgICAgcy5zcmMgPSAiLy9hbi55YW5kZXgucnUvc3lzdGVtL2NvbnRleHQuanMiOw0KICAgICAgICBzLmFzeW5jID0gdHJ1ZTsNCiAgICAgICAgdC5wYXJlbnROb2RlLmluc2VydEJlZm9yZShzLCB0KTsNCiAgICB9KSh0aGlzLCB0aGlzLmRvY3VtZW50LCAieWFuZGV4Q29udGV4dEFzeW5jQ2FsbGJhY2tzIik7DQo8L3NjcmlwdD4=',
+    'PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KICAgIChmdW5jdGlvbih3LCBkLCBuLCBzLCB0KSB7DQogICAgICAgIHdbbl0gPSB3W25dIHx8IFtdOw0KICAgICAgICB3W25dLnB1c2goZnVuY3Rpb24oKSB7DQogICAgICAgICAgICBZYS5Db250ZXh0LkFkdk1hbmFnZXIucmVuZGVyKHsNCiAgICAgICAgICAgICAgICBibG9ja0lkOiAiUi1BLTY1MzI4MC00IiwNCiAgICAgICAgICAgICAgICByZW5kZXJUbzogInlhbmRleF9ydGJfUi1BLTY1MzI4MC00IiwNCiAgICAgICAgICAgICAgICBhc3luYzogdHJ1ZQ0KICAgICAgICAgICAgfSk7DQogICAgICAgIH0pOw0KICAgICAgICB0ID0gZC5nZXRFbGVtZW50c0J5VGFnTmFtZSgic2NyaXB0IilbMF07DQogICAgICAgIHMgPSBkLmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpOw0KICAgICAgICBzLnR5cGUgPSAidGV4dC9qYXZhc2NyaXB0IjsNCiAgICAgICAgcy5zcmMgPSAiLy9hbi55YW5kZXgucnUvc3lzdGVtL2NvbnRleHQuanMiOw0KICAgICAgICBzLmFzeW5jID0gdHJ1ZTsNCiAgICAgICAgdC5wYXJlbnROb2RlLmluc2VydEJlZm9yZShzLCB0KTsNCiAgICB9KSh0aGlzLCB0aGlzLmRvY3VtZW50LCAieWFuZGV4Q29udGV4dEFzeW5jQ2FsbGJhY2tzIik7DQo8L3NjcmlwdD4='
+  );
+</script>
+  
+
+
+<script>
+  decodeBaBlocks(
+    'PHNjcmlwdD4NCihmdW5jdGlvbih3LCBuKSB7DQogICAgd1tuXSA9IHdbbl0gfHwgW107DQogICAgd1tuXS5wdXNoKHsNCiAgICAgICAgb3duZXJJZDogMjg4NzA1LA0KICAgICAgICBjb250YWluZXJJZDogJ2FkZm94XzE2MDIyMTM3MzA5Mzc0OTY1NicsDQogICAgICAgIHBhcmFtczogew0KICAgICAgICAgICAgcHA6ICd4Z3QnLA0KICAgICAgICAgICAgcHM6ICdkc3dkJywNCiAgICAgICAgICAgIHAyOiAnZ3dreicNCiAgICAgICAgfQ0KICAgIH0pOw0KfSkod2luZG93LCAnYWRmb3hBc3luY1BhcmFtcycpOw0KDQpzZXRJbnRlcnZhbChmdW5jdGlvbigpew0KICAgICAgICAgICAgICAgIHdpbmRvdy5ZYS5hZGZveENvZGUucmVsb2FkKCdhZGZveF8xNjAyMjEzNzMwOTM3NDk2NTYnKQ0KICAgICAgICAgICAgfSwgMTUwMDAwKTsNCjwvc2NyaXB0Pg==',
+    'PHNjcmlwdD4NCihmdW5jdGlvbih3LCBuKSB7DQogICAgd1tuXSA9IHdbbl0gfHwgW107DQogICAgd1tuXS5wdXNoKHsNCiAgICAgICAgb3duZXJJZDogMjg4NzA1LA0KICAgICAgICBjb250YWluZXJJZDogJ2FkZm94XzE2MDI5NDI2MzMxNDA1NTgyNicsDQogICAgICAgIHBhcmFtczogew0KICAgICAgICAgICAgcHA6ICd4Z3QnLA0KICAgICAgICAgICAgcHM6ICdkc3dkJywNCiAgICAgICAgICAgIHAyOiAnZ3dsYScNCiAgICAgICAgfQ0KICAgIH0pOw0KfSkod2luZG93LCAnYWRmb3hBc3luY1BhcmFtcycpOw0KDQpzZXRJbnRlcnZhbChmdW5jdGlvbigpew0KICAgICAgICAgICAgICAgIHdpbmRvdy5ZYS5hZGZveENvZGUucmVsb2FkKCdhZGZveF8xNjAyOTQyNjMzMTQwNTU4MjYnKQ0KICAgICAgICAgICAgfSwgMTUwMDAwKTsNCjwvc2NyaXB0Pg=='
+  );
+</script>
+
+    </div>
+  
+  
+  <div class="clearfix"><!----></div>
+</div>
+  <style type="text/css">
+  #mangaBox{overflow: visible;}
+  </style>
+  <script>
+    myLazyLoad.update();
+  </script>
+
+  
+</div>
+
+<div class="page-footer">
+  <div class="shadow"></div>
+  <div class="container">
+    <div class="footer-links">
+      <a href="/page/user_agreement">Пользовательское Соглашение</a> |
+      <a href="/internal/feedback/index?type=5" class="colorbox-modalbox">Жалоба на контент</a> |
+      <a href="/page/copyright_holders">Для правообладателей</a> |
+      <span class="hidden-sm"><a href="/page/advertising">Реклама на сайте</a> |</span>
+      <a href="/about">О нас</a>
+    </div>
+    
+      <div class="federation-elements">
+        <a href="https://readmanga.live" title="Читай мангу" rel="nofollow">ReadManga</a>
+
+<a href="/internal/redirect?type=ad&amp;id=%2F" title="Читай взрослую мангу">MintManga</a>
+
+
+<a href="https://doramatv.live" title="Смотри и обсуждай Дораму онлайн" rel="nofollow">DoramaTV</a>
+
+<a href="https://librebook.me" title="Читай книги онлайн" rel="nofollow">LibreBook</a>
+<a href="https://findanime.net" title="Смотри и обсуждай аниме онлайн" rel="nofollow">FindAnime</a>
+<a href="https://selfmanga.live" title="Создавай и читай мангу" rel="nofollow">SelfManga</a>
+
+<a href="https://selflib.me" title="Создавай и читай самиздат" rel="nofollow">SelfLib</a>
+<a href="https://mose.live" title="Смотри сериалы" rel="nofollow">MoSe</a>
+
+<a href="https://grouple.co" title="Закладки, активности, общение" rel="nofollow">GroupLe</a>
+      </div>
+    
+
+    
+
+
+    <span class="small hidden-xs">Copyrights and trademarks for the manga, and other promotional materials are the property of their respective owners. Use of these materials are allowed under the fair use clause of the Copyright Law</span>
+
+  </div>
+</div>
+
+
+
+
+<script>
+  decodeBaBlocks(
+    'PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KICAgIChmdW5jdGlvbih3LCBkLCBuLCBzLCB0KSB7DQogICAgICAgIHdbbl0gPSB3W25dIHx8IFtdOw0KICAgICAgICB3W25dLnB1c2goZnVuY3Rpb24oKSB7DQogICAgICAgICAgICBZYS5Db250ZXh0LkFkdk1hbmFnZXIucmVuZGVyKHsNCiAgICAgICAgICAgICAgICBibG9ja0lkOiAiUi1BLTU5NTM0MC0xIiwNCiAgICAgICAgICAgICAgICByZW5kZXJUbzogInlhbmRleF9ydGJfUi1BLTU5NTM0MC0xIiwNCiAgICAgICAgICAgICAgICBhc3luYzogdHJ1ZQ0KICAgICAgICAgICAgfSk7DQogICAgICAgIH0pOw0KICAgICAgICB0ID0gZC5nZXRFbGVtZW50c0J5VGFnTmFtZSgic2NyaXB0IilbMF07DQogICAgICAgIHMgPSBkLmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpOw0KICAgICAgICBzLnR5cGUgPSAidGV4dC9qYXZhc2NyaXB0IjsNCiAgICAgICAgcy5zcmMgPSAiLy9hbi55YW5kZXgucnUvc3lzdGVtL2NvbnRleHQuanMiOw0KICAgICAgICBzLmFzeW5jID0gdHJ1ZTsNCiAgICAgICAgdC5wYXJlbnROb2RlLmluc2VydEJlZm9yZShzLCB0KTsNCiAgICB9KSh0aGlzLCB0aGlzLmRvY3VtZW50LCAieWFuZGV4Q29udGV4dEFzeW5jQ2FsbGJhY2tzIik7DQo8L3NjcmlwdD4=',
+    'PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KICAgIChmdW5jdGlvbih3LCBkLCBuLCBzLCB0KSB7DQogICAgICAgIHdbbl0gPSB3W25dIHx8IFtdOw0KICAgICAgICB3W25dLnB1c2goZnVuY3Rpb24oKSB7DQogICAgICAgICAgICBZYS5Db250ZXh0LkFkdk1hbmFnZXIucmVuZGVyKHsNCiAgICAgICAgICAgICAgICBibG9ja0lkOiAiUi1BLTU5NTM0MC0yIiwNCiAgICAgICAgICAgICAgICByZW5kZXJUbzogInlhbmRleF9ydGJfUi1BLTU5NTM0MC0yIiwNCiAgICAgICAgICAgICAgICBhc3luYzogdHJ1ZQ0KICAgICAgICAgICAgfSk7DQogICAgICAgIH0pOw0KICAgICAgICB0ID0gZC5nZXRFbGVtZW50c0J5VGFnTmFtZSgic2NyaXB0IilbMF07DQogICAgICAgIHMgPSBkLmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpOw0KICAgICAgICBzLnR5cGUgPSAidGV4dC9qYXZhc2NyaXB0IjsNCiAgICAgICAgcy5zcmMgPSAiLy9hbi55YW5kZXgucnUvc3lzdGVtL2NvbnRleHQuanMiOw0KICAgICAgICBzLmFzeW5jID0gdHJ1ZTsNCiAgICAgICAgdC5wYXJlbnROb2RlLmluc2VydEJlZm9yZShzLCB0KTsNCiAgICB9KSh0aGlzLCB0aGlzLmRvY3VtZW50LCAieWFuZGV4Q29udGV4dEFzeW5jQ2FsbGJhY2tzIik7DQo8L3NjcmlwdD4='
+  );
+</script>
+
+
+<script type="text/javascript" src="https://res.readmanga.live/static/application_deferred-40cb2daa9e2fc3dee53d98e30ef19157.js" ></script>
+
+
+<script type='text/javascript'>
+  rm_sso_h.doRequest('https://grouple.co', 1);
+</script>
+<script type="text/javascript">
+document.write("<a class='hide' href='http://www.liveinternet.ru/click' rel='noopener' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t26.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число посетителей за"+
+" сегодня' "+
+"border='0' width='88' height='15'><\/a>")
+</script>
+
+<!-- Yandex.Metrika counter --> <script src="https://mc.yandex.ru/metrika/watch.js" type="text/javascript"></script> <script type="text/javascript"> try { var yaCounter21277900 = new Ya.Metrika({ id:21277900, clickmap:false, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } </script> <noscript><div><img src="https://mc.yandex.ru/watch/21277900" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
+  <script>
+$(function () {
+    if (typeof hidden_ba_yes === "undefined" ) {
+        rm_h.layout.detectBlocking(function(){
+            var popup = new MGPopUp('specific_cookie_id_4');
+            var bodyStr = '<div style="text-align: center;"><a href="https://readmanga.live/page/ablock_instruction" target="_blank"><img src="https://static.readmanga.live/uploads/pics/01/34/360_o.png"></a></div> ' +
+              '<h3>Отключите Адблок на нашем сайте, пожалуйста. <a href="https://readmanga.live/page/ablock_instruction" target="_blank">Как это сделать?...</a>!</h3>';
+            popup.modalHtml('Отключите блокировщик рекламы', bodyStr);
+            popup.showIf(null, 1);
+        })
+    }
+    });
+</script>
+<!-- memcached Mon Mar 29 06:19:32 MSK 2021 -->
+</body>
+</html>

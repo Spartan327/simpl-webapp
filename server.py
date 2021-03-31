@@ -1,4 +1,6 @@
-from flask import Flask
+from flask import Flask, render_template
+
+from readmanga_top_week import get_top5_manga_week
 from weather import weather_by_city
 
 app = Flask(__name__)
@@ -6,13 +8,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
+    title = "Изучаем Python!"
     weather = weather_by_city("Krasnoyarsk,Russia")
-    if weather:
-        return f"Температура в городе Красноярск {weather['temp_C']} С,\
-                 ощущается как {weather['FeelsLikeC']} С,\
-                 ветер {weather['windspeedKmph']} км/ч."
-    else:
-        return "Сервис погоды временно недоступен"
+    top5_manga_week = get_top5_manga_week()
+    return render_template('index.html', title=title, weather=weather, top5_manga_week=top5_manga_week)
 
 
 if __name__ == "__main__":
